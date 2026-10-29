@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+# Run output at the repo root only - tests/data/ holds committed fixtures.
+/data/

@@ -1,0 +1,92 @@
+name: iris-oek-rp
+
+# No env_file on purpose: every container receives only the variables it
+# needs. The PostGIS superuser password never reaches an application container,
+# and the harvester never receives the migrator (DDL) credentials.
+
+x-app: &app
+  image: iris-oek-rp:local
+  build:
+    context: .
+    args:
+      INSTALL_DEV: "true"
+  volumes:
+    - ./data:/app/data
+    - ./examples:/app/examples
+
+x-harvester-env: &harvester-env
+  IRIS_DATABASE_URL: postgresql+psycopg://${IRIS_DB_USER:?set in .env}:${IRIS_DB_PASSWORD:?set in .env}@db:5432/${POSTGRES_DB:?set in .env}
+  IRIS_SOURCE_MODE: ${IRIS_SOURCE_MODE:-fixture}
+  IRIS_WFS_URL: ${IRIS_WFS_URL:-https://geodaten-wasser.rlp.de/wfs/kompensation}
+  IRIS_WFS_LAYER: ${IRIS_WFS_LAYER:-rp_oekokonto}
+  IRIS_WFS_VERSION: ${IRIS_WFS_VERSION:-2.0.0}
+  IRIS_WFS_ALLOWED_HOSTS: ${IRIS_WFS_ALLOWED_HOSTS:-}
+  IRIS_ACCESS_CONSTRAINTS_ACKNOWLEDGED: ${IRIS_ACCESS_CONSTRAINTS_ACKNOWLEDGED:-false}
+  IRIS_PAGE_SIZE: ${IRIS_PAGE_SIZE:-500}
+  IRIS_MAX_FEATURES: ${IRIS_MAX_FEATURES:-50000}
+  IRIS_MAX_RESPONSE_MB: ${IRIS_MAX_RESPONSE_MB:-200}
+  IRIS_REQUEST_DELAY_S: ${IRIS_REQUEST_DELAY_S:-1.0}
+  IRIS_HTTP_TIMEOUT_S: ${IRIS_HTTP_TIMEOUT_S:-60}
+  IRIS_HTTP_RETRIES: ${IRIS_HTTP_RETRIES:-3}
+
+services:
+  db:
+    # Same image as iris-sample, pinned by digest. No arm64 build exists, so it
+    # runs emulated on Apple Silicon.
+    image: postgis/postgis:17-3.5@sha256:01a6a70e41e6c4467c8f55f6063555ed72db2d6662cd0d571040d42eadaeb6f6
+    platform: linux/amd64
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:?set in .env}
+      POSTGRES_USER: ${POSTGRES_USER:?set in .env}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set in .env}
+      IRIS_MIGRATOR_USER: ${IRIS_MIGRATOR_USER:?set in .env}
+      IRIS_MIGRATOR_PASSWORD: ${IRIS_MIGRATOR_PASSWORD:?set in .env}
+      IRIS_DB_USER: ${IRIS_DB_USER:?set in .env}
+      IRIS_DB_PASSWORD: ${IRIS_DB_PASSWORD:?set in .env}
+    ports:
+      # Loopback only: the staging database is not reachable from the network.
+      - "127.0.0.1:${POSTGIS_PORT:-5434}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./db/init/20_iris_staging.sh:/docker-entrypoint-initdb.d/20_iris_staging.sh:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  migrate:
+    <<: *app
+    entrypoint: ["alembic"]
+    command: ["upgrade", "head"]
+    environment:
+      IRIS_DATABASE_URL: postgresql+psycopg://${IRIS_MIGRATOR_USER:?set in .env}:${IRIS_MIGRATOR_PASSWORD:?set in .env}@db:5432/${POSTGRES_DB:?set in .env}
+    depends_on:
+      db:
+        condition: service_healthy
+
+  harvester:
+    <<: *app
+    command: ["harvest"]
+    environment: *harvester-env
+    depends_on:
+      db:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+
+  tests:
+    <<: *app
+    profiles: ["test"]
+    entrypoint: ["pytest"]
+    command: ["-q"]
+    environment:
+      # Runtime role for the harvest under test, migrator for schema setup/cleanup.
+      TEST_DATABASE_URL: postgresql+psycopg://${IRIS_DB_USER:?set in .env}:${IRIS_DB_PASSWORD:?set in .env}@db:5432/iris_test
+      TEST_ADMIN_DATABASE_URL: postgresql+psycopg://${IRIS_MIGRATOR_USER:?set in .env}:${IRIS_MIGRATOR_PASSWORD:?set in .env}@db:5432/iris_test
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  pgdata:

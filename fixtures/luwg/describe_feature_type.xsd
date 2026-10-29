@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SYNTHETIC FIXTURE. Property names follow the register entries required by
+  LKompVzVO § 3 (Objektkennung, Objektbezeichnung, Lage/Abgrenzung,
+  Aktenzeichen, Fläche in Hektar, Eintragungsstelle ...). flurstuecke,
+  massnahme and zielzustand are intentionally NOT mapped: they demonstrate
+  that unmapped source fields are listed in the report and retained in
+  source_attributes, never dropped.
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:luwg="https://geodaten-wasser.rlp.de/luwg" targetNamespace="https://geodaten-wasser.rlp.de/luwg" elementFormDefault="qualified" version="0.1">
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <element name="rp_oekokonto" type="luwg:rp_oekokontoType" substitutionGroup="gml:AbstractFeature"/>
+  <complexType name="rp_oekokontoType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="geom" type="gml:MultiSurfacePropertyType" minOccurs="0" maxOccurs="1"/>
+          <element name="objekt_id" type="string" minOccurs="0" maxOccurs="1"/>
+          <element name="objektart" type="string" minOccurs="0" maxOccurs="1"/>
+          <element name="bezeichnung" type="string" minOccurs="0" maxOccurs="1"/>
+          <element name="aktenzeichen" type="string" minOccurs="0" maxOccurs="1"/>
+          <element name="gemeinde" type="string" minOccurs="0" maxOccurs="1"/>
+          <element name="gemeinde_schluessel" type="string" minOccurs="0" maxOccurs="1"/>
+          <element name="gemarkung" type="string" minOccurs="0" maxOccurs="1"/>
+          <element name="gemarkung_schluessel" type="string" minOccurs="0" maxOccurs="1"/>
+          <element name="flurstuecke" type="string" minOccurs="0" maxOccurs="1"/>
+          <element name="status" type="string" minOccurs="0" maxOccurs="1"/>
+          <element name="flaeche_ha" type="string" minOccurs="0" maxOccurs="1"/>
+          <element name="oekopunkte_gesamt" type="decimal" minOccurs="0" maxOccurs="1"/>
+          <element name="oekopunkte_verfuegbar" type="decimal" minOccurs="0" maxOccurs="1"/>
+          <element name="massnahme" type="string" minOccurs="0" maxOccurs="1"/>
+          <element name="zielzustand" type="string" minOccurs="0" maxOccurs="1"/>
+          <element name="eintragungsstelle" type="string" minOccurs="0" maxOccurs="1"/>
+          <element name="datum_eintragung" type="string" minOccurs="0" maxOccurs="1"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+</schema>

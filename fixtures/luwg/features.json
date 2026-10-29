@@ -1,0 +1,3882 @@
+{
+ "type": "FeatureCollection",
+ "name": "luwg:rp_oekokonto",
+ "timeStamp": "2026-10-28T00:00:00Z",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:EPSG::25832"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1001",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       446447.09,
+       5536134.61
+      ],
+      [
+       446435.27,
+       5536189.68
+      ],
+      [
+       446390.12,
+       5536228.94
+      ],
+      [
+       446333.18,
+       5536215.51
+      ],
+      [
+       446294.47,
+       5536181.84
+      ],
+      [
+       446275.55,
+       5536134.61
+      ],
+      [
+       446297.75,
+       5536089.77
+      ],
+      [
+       446331.47,
+       5536048.44
+      ],
+      [
+       446390.15,
+       5536040.18
+      ],
+      [
+       446424.0,
+       5536087.73
+      ],
+      [
+       446447.09,
+       5536134.61
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0001",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Anlage einer Streuobstwiese Mainz",
+    "aktenzeichen": "UNB-315-155/2024",
+    "gemeinde": "Mainz",
+    "gemeinde_schluessel": "07315000",
+    "gemarkung": "Mainz-Mitte",
+    "gemarkung_schluessel": "073241",
+    "flurstuecke": "Flur 13, Nr. 349/1",
+    "status": "Umgesetzt",
+    "flaeche_ha": "2,2552",
+    "oekopunkte_gesamt": 283124,
+    "oekopunkte_verfuegbar": 84183,
+    "massnahme": "Extensivierung von Grünland",
+    "zielzustand": "Extensivgrünland",
+    "eintragungsstelle": "Stadtverwaltung Koblenz - Untere Naturschutzbehörde",
+    "datum_eintragung": "2023-03-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1002",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       398903.33,
+       5578972.49
+      ],
+      [
+       398866.67,
+       5579054.35
+      ],
+      [
+       398792.82,
+       5579091.99
+      ],
+      [
+       398715.23,
+       5579091.81
+      ],
+      [
+       398640.55,
+       5579054.91
+      ],
+      [
+       398606.41,
+       5578972.49
+      ],
+      [
+       398646.57,
+       5578894.44
+      ],
+      [
+       398709.34,
+       5578835.06
+      ],
+      [
+       398791.05,
+       5578858.46
+      ],
+      [
+       398861.68,
+       5578894.25
+      ],
+      [
+       398903.33,
+       5578972.49
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0002",
+    "objektart": "Kompensationsfläche",
+    "bezeichnung": "Pflanzung einer Feldhecke Koblenz",
+    "aktenzeichen": "UNB-111-790/2015",
+    "gemeinde": "Koblenz",
+    "gemeinde_schluessel": "07111000",
+    "gemarkung": "Koblenz-Mitte",
+    "gemarkung_schluessel": "072615",
+    "flurstuecke": "Flur 20, Nr. 256/7",
+    "status": "Umsetzung abgeschlossen",
+    "flaeche_ha": "5,4163",
+    "oekopunkte_gesamt": null,
+    "oekopunkte_verfuegbar": null,
+    "massnahme": "Renaturierung eines Bachabschnitts",
+    "zielzustand": "Streuobstwiese",
+    "eintragungsstelle": "Stiftung Natur und Umwelt Rheinland-Pfalz",
+    "datum_eintragung": "2023-11-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1003",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       331490.9,
+       5514423.05
+      ],
+      [
+       331466.5,
+       5514462.08
+      ],
+      [
+       331433.61,
+       5514487.17
+      ],
+      [
+       331392.27,
+       5514486.17
+      ],
+      [
+       331357.2,
+       5514463.43
+      ],
+      [
+       331349.19,
+       5514423.05
+      ],
+      [
+       331359.28,
+       5514384.18
+      ],
+      [
+       331389.25,
+       5514350.62
+      ],
+      [
+       331434.28,
+       5514356.88
+      ],
+      [
+       331472.74,
+       5514379.48
+      ],
+      [
+       331490.9,
+       5514423.05
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0003",
+    "objektart": "OEKOKONTO",
+    "bezeichnung": "Extensivierung von Grünland Trier",
+    "aktenzeichen": "UNB-211-150/2024",
+    "gemeinde": "Trier",
+    "gemeinde_schluessel": "07211000",
+    "gemarkung": "Trier-Ost",
+    "gemarkung_schluessel": "077510",
+    "flurstuecke": "Flur 8, Nr. 367/1",
+    "status": "IN PFLEGE",
+    "flaeche_ha": "1,4270",
+    "oekopunkte_gesamt": 180229,
+    "oekopunkte_verfuegbar": 125475,
+    "massnahme": "Renaturierung eines Bachabschnitts",
+    "zielzustand": "Extensivgrünland",
+    "eintragungsstelle": "Stadtverwaltung Koblenz - Untere Naturschutzbehörde",
+    "datum_eintragung": "2022-03-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1004",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       410507.12,
+       5476378.21
+      ],
+      [
+       410492.85,
+       5476438.61
+      ],
+      [
+       410435.53,
+       5476457.65
+      ],
+      [
+       410383.76,
+       5476458.11
+      ],
+      [
+       410327.23,
+       5476438.15
+      ],
+      [
+       410319.55,
+       5476378.21
+      ],
+      [
+       410331.22,
+       5476321.18
+      ],
+      [
+       410383.7,
+       5476298.13
+      ],
+      [
+       410442.24,
+       5476278.13
+      ],
+      [
+       410498.21,
+       5476313.93
+      ],
+      [
+       410507.12,
+       5476378.21
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0004",
+    "objektart": "Kompensationsflaeche",
+    "bezeichnung": "Pflanzung einer Feldhecke Kaiserslautern",
+    "aktenzeichen": "UNB-312-988/2024",
+    "gemeinde": "Kaiserslautern",
+    "gemeinde_schluessel": "07312000",
+    "gemarkung": "Kaiserslautern-Nord",
+    "gemarkung_schluessel": "077632",
+    "flurstuecke": "Flur 24, Nr. 119/4",
+    "status": "IN PFLEGE",
+    "flaeche_ha": "2,6836",
+    "oekopunkte_gesamt": null,
+    "oekopunkte_verfuegbar": null,
+    "massnahme": "Renaturierung eines Bachabschnitts",
+    "zielzustand": "Streuobstwiese",
+    "eintragungsstelle": "Stiftung Natur und Umwelt Rheinland-Pfalz",
+    "datum_eintragung": "2024-02-08"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1005",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       456280.13,
+       5481924.81
+      ],
+      [
+       456261.86,
+       5481985.38
+      ],
+      [
+       456217.2,
+       5482043.93
+      ],
+      [
+       456147.97,
+       5482018.77
+      ],
+      [
+       456076.41,
+       5481998.98
+      ],
+      [
+       456062.58,
+       5481924.81
+      ],
+      [
+       456077.08,
+       5481851.12
+      ],
+      [
+       456147.11,
+       5481828.21
+      ],
+      [
+       456208.45,
+       5481832.65
+      ],
+      [
+       456279.78,
+       5481851.23
+      ],
+      [
+       456280.13,
+       5481924.81
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0005",
+    "objektart": "Ersatzzahlungsmaßnahme",
+    "bezeichnung": "Pflanzung einer Feldhecke Ludwigshafen am Rhein",
+    "aktenzeichen": "UNB-314-932/2019",
+    "gemeinde": "Ludwigshafen am Rhein",
+    "gemeinde_schluessel": "07314000",
+    "gemarkung": "Ludwigshafen-Mitte",
+    "gemarkung_schluessel": "073340",
+    "flurstuecke": "Flur 28, Nr. 358/9",
+    "status": "geplant",
+    "flaeche_ha": 3.668,
+    "oekopunkte_gesamt": null,
+    "oekopunkte_verfuegbar": null,
+    "massnahme": "Anlage einer Streuobstwiese",
+    "zielzustand": "Magerrasen",
+    "eintragungsstelle": "Stiftung Natur und Umwelt Rheinland-Pfalz",
+    "datum_eintragung": "2022-02-12"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1006",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       438890.19,
+       5465934.07
+      ],
+      [
+       438880.61,
+       5465962.57
+      ],
+      [
+       438858.14,
+       5465985.63
+      ],
+      [
+       438826.71,
+       5465979.24
+      ],
+      [
+       438803.56,
+       5465961.55
+      ],
+      [
+       438791.47,
+       5465934.07
+      ],
+      [
+       438797.43,
+       5465902.14
+      ],
+      [
+       438828.19,
+       5465893.46
+      ],
+      [
+       438858.65,
+       5465880.93
+      ],
+      [
+       438876.64,
+       5465908.46
+      ],
+      [
+       438890.19,
+       5465934.07
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0006",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Renaturierung eines Bachabschnitts Neustadt an der Weinstraße",
+    "aktenzeichen": "UNB-316-731/2018",
+    "gemeinde": "Neustadt an der Weinstraße",
+    "gemeinde_schluessel": "07316000",
+    "gemarkung": "Neustadt-Nord",
+    "gemarkung_schluessel": "077684",
+    "flurstuecke": "Flur 28, Nr. 70/4",
+    "status": "geplant",
+    "flaeche_ha": 0.7084,
+    "oekopunkte_gesamt": 57885,
+    "oekopunkte_verfuegbar": 52019,
+    "massnahme": "Extensivierung von Grünland",
+    "zielzustand": "Auwald",
+    "eintragungsstelle": "Kreisverwaltung Mainz-Bingen - Untere Naturschutzbehörde",
+    "datum_eintragung": "2019-06-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1007",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       419127.9,
+       5520407.55
+      ],
+      [
+       419119.64,
+       5520445.18
+      ],
+      [
+       419083.26,
+       5520455.0
+      ],
+      [
+       419048.1,
+       5520468.3
+      ],
+      [
+       419026.64,
+       5520437.48
+      ],
+      [
+       419012.42,
+       5520407.55
+      ],
+      [
+       419019.56,
+       5520372.47
+      ],
+      [
+       419051.22,
+       5520356.4
+      ],
+      [
+       419083.46,
+       5520359.49
+      ],
+      [
+       419118.22,
+       5520370.94
+      ],
+      [
+       419127.9,
+       5520407.55
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0007",
+    "objektart": "Kompensationsfläche",
+    "bezeichnung": "Umwandlung von Acker in Magerrasen Bad Kreuznach",
+    "aktenzeichen": "UNB-133-722/2015",
+    "gemeinde": "Bad Kreuznach",
+    "gemeinde_schluessel": "07133006",
+    "gemarkung": "Bad-West",
+    "gemarkung_schluessel": "074573",
+    "flurstuecke": "Flur 5, Nr. 380/8",
+    "status": "geplant",
+    "flaeche_ha": 0.9529,
+    "oekopunkte_gesamt": null,
+    "oekopunkte_verfuegbar": null,
+    "massnahme": "Extensivierung von Grünland",
+    "zielzustand": "Streuobstwiese",
+    "eintragungsstelle": "SGD Süd - Obere Naturschutzbehörde",
+    "datum_eintragung": "12.01.2019"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1008",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       392910.36,
+       5591440.85
+      ],
+      [
+       392891.31,
+       5591493.65
+      ],
+      [
+       392843.68,
+       5591517.92
+      ],
+      [
+       392793.03,
+       5591519.69
+      ],
+      [
+       392745.11,
+       5591494.27
+      ],
+      [
+       392728.98,
+       5591440.85
+      ],
+      [
+       392756.61,
+       5591395.78
+      ],
+      [
+       392791.54,
+       5591357.43
+      ],
+      [
+       392846.13,
+       5591356.26
+      ],
+      [
+       392893.35,
+       5591386.57
+      ],
+      [
+       392910.36,
+       5591440.85
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0008",
+    "objektart": "OEKOKONTO",
+    "bezeichnung": "Renaturierung eines Bachabschnitts Neuwied",
+    "aktenzeichen": "UNB-138-645/2019",
+    "gemeinde": "Neuwied",
+    "gemeinde_schluessel": "07138045",
+    "gemarkung": "Neuwied-Ost",
+    "gemarkung_schluessel": "075484",
+    "flurstuecke": "Flur 7, Nr. 96/6",
+    "status": " in Umsetzung ",
+    "flaeche_ha": "2,2337",
+    "oekopunkte_gesamt": 194769,
+    "oekopunkte_verfuegbar": 105427,
+    "massnahme": "Renaturierung eines Bachabschnitts",
+    "zielzustand": "Streuobstwiese",
+    "eintragungsstelle": "SGD Nord - Obere Naturschutzbehörde",
+    "datum_eintragung": "2022-08-13"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1009",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       459519.71,
+       5464240.66
+      ],
+      [
+       459480.02,
+       5464315.96
+      ],
+      [
+       459419.2,
+       5464372.45
+      ],
+      [
+       459341.13,
+       5464349.14
+      ],
+      [
+       459284.76,
+       5464307.23
+      ],
+      [
+       459255.27,
+       5464240.66
+      ],
+      [
+       459262.45,
+       5464157.89
+      ],
+      [
+       459342.16,
+       5464135.35
+      ],
+      [
+       459412.88,
+       5464128.32
+      ],
+      [
+       459489.36,
+       5464158.57
+      ],
+      [
+       459519.71,
+       5464240.66
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0009",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Extensivierung von Grünland Speyer",
+    "aktenzeichen": "UNB-318-176/2019",
+    "gemeinde": "Speyer",
+    "gemeinde_schluessel": "07318000",
+    "gemarkung": "Speyer-Süd",
+    "gemarkung_schluessel": "076426",
+    "flurstuecke": "Flur 1, Nr. 266/9",
+    "status": "umgesetzt",
+    "flaeche_ha": "4,7256",
+    "oekopunkte_gesamt": 431600,
+    "oekopunkte_verfuegbar": 374033,
+    "massnahme": "Entwicklung eines Auwalds",
+    "zielzustand": "Feldgehölz",
+    "eintragungsstelle": "Stadtverwaltung Koblenz - Untere Naturschutzbehörde",
+    "datum_eintragung": "2020-01-28"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1009",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       459519.71,
+       5464240.66
+      ],
+      [
+       459480.02,
+       5464315.96
+      ],
+      [
+       459419.2,
+       5464372.45
+      ],
+      [
+       459341.13,
+       5464349.14
+      ],
+      [
+       459284.76,
+       5464307.23
+      ],
+      [
+       459255.27,
+       5464240.66
+      ],
+      [
+       459262.45,
+       5464157.89
+      ],
+      [
+       459342.16,
+       5464135.35
+      ],
+      [
+       459412.88,
+       5464128.32
+      ],
+      [
+       459489.36,
+       5464158.57
+      ],
+      [
+       459519.71,
+       5464240.66
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0009",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Extensivierung von Grünland Speyer",
+    "aktenzeichen": "UNB-318-176/2019",
+    "gemeinde": "Speyer",
+    "gemeinde_schluessel": "07318000",
+    "gemarkung": "Speyer-Süd",
+    "gemarkung_schluessel": "076426",
+    "flurstuecke": "Flur 1, Nr. 266/9",
+    "status": "umgesetzt",
+    "flaeche_ha": "4,7256",
+    "oekopunkte_gesamt": 431600,
+    "oekopunkte_verfuegbar": 374033,
+    "massnahme": "Entwicklung eines Auwalds",
+    "zielzustand": "Feldgehölz",
+    "eintragungsstelle": "Stadtverwaltung Koblenz - Untere Naturschutzbehörde",
+    "datum_eintragung": "2020-01-28"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1010",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       435079.43,
+       5449839.72
+      ],
+      [
+       435040.21,
+       5449913.06
+      ],
+      [
+       434978.92,
+       5449961.77
+      ],
+      [
+       434890.89,
+       5449988.61
+      ],
+      [
+       434837.97,
+       5449913.32
+      ],
+      [
+       434789.82,
+       5449839.72
+      ],
+      [
+       434832.68,
+       5449762.28
+      ],
+      [
+       434897.58,
+       5449711.44
+      ],
+      [
+       434976.1,
+       5449726.36
+      ],
+      [
+       435052.2,
+       5449757.67
+      ],
+      [
+       435079.43,
+       5449839.72
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0010",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Pflanzung einer Feldhecke Landau in der Pfalz",
+    "aktenzeichen": "UNB-313-118/2015",
+    "gemeinde": "Landau in der Pfalz",
+    "gemeinde_schluessel": "07313000",
+    "gemarkung": "Landau-Nord",
+    "gemarkung_schluessel": "071768",
+    "flurstuecke": "Flur 10, Nr. 66/3",
+    "status": "Umgesetzt",
+    "flaeche_ha": 5.3385,
+    "oekopunkte_gesamt": 696674,
+    "oekopunkte_verfuegbar": 309062,
+    "massnahme": "Umwandlung von Acker in Magerrasen",
+    "zielzustand": "Feldgehölz",
+    "eintragungsstelle": "SGD Süd - Obere Naturschutzbehörde",
+    "datum_eintragung": "20.11.2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1011",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       366397.97,
+       5599564.22
+      ],
+      [
+       366383.54,
+       5599609.74
+      ],
+      [
+       366339.56,
+       5599621.64
+      ],
+      [
+       366301.42,
+       5599624.17
+      ],
+      [
+       366266.04,
+       5599604.08
+      ],
+      [
+       366245.58,
+       5599564.22
+      ],
+      [
+       366272.46,
+       5599529.03
+      ],
+      [
+       366297.02,
+       5599490.73
+      ],
+      [
+       366339.76,
+       5599506.18
+      ],
+      [
+       366379.78,
+       5599521.44
+      ],
+      [
+       366397.97,
+       5599564.22
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0011",
+    "objektart": "Kompensationsfläche",
+    "bezeichnung": "Anlage einer Streuobstwiese Bad Neuenahr-Ahrweiler",
+    "aktenzeichen": "UNB-131-306/2016",
+    "gemeinde": "Bad Neuenahr-Ahrweiler",
+    "gemeinde_schluessel": "07131007",
+    "gemarkung": "Bad-West",
+    "gemarkung_schluessel": "079978",
+    "flurstuecke": "Flur 21, Nr. 94/9",
+    "status": "IN PFLEGE",
+    "flaeche_ha": 1.4029,
+    "oekopunkte_gesamt": null,
+    "oekopunkte_verfuegbar": null,
+    "massnahme": "Anlage einer Streuobstwiese",
+    "zielzustand": "Streuobstwiese",
+    "eintragungsstelle": "SGD Süd - Obere Naturschutzbehörde",
+    "datum_eintragung": "24.08.2018"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1012",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       381349.03,
+       5507369.3
+      ],
+      [
+       381341.08,
+       5507437.54
+      ],
+      [
+       381280.81,
+       5507472.88
+      ],
+      [
+       381210.49,
+       5507482.13
+      ],
+      [
+       381155.73,
+       5507435.73
+      ],
+      [
+       381126.95,
+       5507369.3
+      ],
+      [
+       381170.46,
+       5507313.58
+      ],
+      [
+       381211.41,
+       5507259.3
+      ],
+      [
+       381277.29,
+       5507276.56
+      ],
+      [
+       381322.73,
+       5507314.39
+      ],
+      [
+       381349.03,
+       5507369.3
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0012",
+    "objektart": "OEKOKONTO",
+    "bezeichnung": "Umwandlung von Acker in Magerrasen Idar-Oberstein",
+    "aktenzeichen": "UNB-134-995/2017",
+    "gemeinde": "Idar-Oberstein",
+    "gemeinde_schluessel": "07134045",
+    "gemarkung": "Idar-Oberstein-Nord",
+    "gemarkung_schluessel": "071069",
+    "flurstuecke": "Flur 20, Nr. 64/3",
+    "status": "Umsetzung abgeschlossen",
+    "flaeche_ha": "3,4282",
+    "oekopunkte_gesamt": 388199,
+    "oekopunkte_verfuegbar": 288866,
+    "massnahme": "Renaturierung eines Bachabschnitts",
+    "zielzustand": "Magerrasen",
+    "eintragungsstelle": "Kreisverwaltung Mainz-Bingen - Untere Naturschutzbehörde",
+    "datum_eintragung": "2020-09-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1013",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       424373.62,
+       5533546.06
+      ],
+      [
+       424364.85,
+       5533567.4
+      ],
+      [
+       424348.14,
+       5533585.02
+      ],
+      [
+       424320.98,
+       5533590.72
+      ],
+      [
+       424298.99,
+       5533572.58
+      ],
+      [
+       424298.76,
+       5533546.06
+      ],
+      [
+       424300.36,
+       5533520.54
+      ],
+      [
+       424324.13,
+       5533511.1
+      ],
+      [
+       424349.88,
+       5533501.75
+      ],
+      [
+       424366.78,
+       5533523.33
+      ],
+      [
+       424373.62,
+       5533546.06
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0013",
+    "objektart": "Kompensationsflaeche",
+    "bezeichnung": "Extensivierung von Grünland Bingen am Rhein",
+    "aktenzeichen": "UNB-339-420/2021",
+    "gemeinde": "Bingen am Rhein",
+    "gemeinde_schluessel": "07339005",
+    "gemarkung": "Bingen-Mitte",
+    "gemarkung_schluessel": "079212",
+    "flurstuecke": "Flur 7, Nr. 230/9",
+    "status": "Umgesetzt",
+    "flaeche_ha": 0.4923,
+    "oekopunkte_gesamt": null,
+    "oekopunkte_verfuegbar": null,
+    "massnahme": "Extensivierung von Grünland",
+    "zielzustand": "Streuobstwiese",
+    "eintragungsstelle": "Kreisverwaltung Mainz-Bingen - Untere Naturschutzbehörde",
+    "datum_eintragung": "2022-12-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1014",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       380744.76,
+       5456314.6
+      ],
+      [
+       380732.71,
+       5456390.51
+      ],
+      [
+       380661.39,
+       5456416.66
+      ],
+      [
+       380591.92,
+       5456426.35
+      ],
+      [
+       380520.61,
+       5456392.79
+      ],
+      [
+       380519.77,
+       5456314.6
+      ],
+      [
+       380525.64,
+       5456240.06
+      ],
+      [
+       380589.93,
+       5456196.74
+      ],
+      [
+       380665.88,
+       5456198.71
+      ],
+      [
+       380725.72,
+       5456243.76
+      ],
+      [
+       380744.76,
+       5456314.6
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0014",
+    "objektart": "Ersatzzahlungsmaßnahme",
+    "bezeichnung": "Renaturierung eines Bachabschnitts Zweibrücken",
+    "aktenzeichen": "UNB-320-948/2023",
+    "gemeinde": "Zweibrücken",
+    "gemeinde_schluessel": "07320000",
+    "gemarkung": "Zweibrücken-Süd",
+    "gemarkung_schluessel": "078007",
+    "flurstuecke": "Flur 5, Nr. 371/8",
+    "status": "Umsetzung abgeschlossen",
+    "flaeche_ha": "4,2577",
+    "oekopunkte_gesamt": null,
+    "oekopunkte_verfuegbar": null,
+    "massnahme": "Renaturierung eines Bachabschnitts",
+    "zielzustand": "Auwald",
+    "eintragungsstelle": "Stiftung Natur und Umwelt Rheinland-Pfalz",
+    "datum_eintragung": "2024-07-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1015",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       397798.08,
+       5450108.52
+      ],
+      [
+       397791.64,
+       5450146.52
+      ],
+      [
+       397759.87,
+       5450171.7
+      ],
+      [
+       397718.93,
+       5450171.32
+      ],
+      [
+       397684.92,
+       5450148.06
+      ],
+      [
+       397681.83,
+       5450108.52
+      ],
+      [
+       397689.33,
+       5450072.19
+      ],
+      [
+       397716.63,
+       5450038.62
+      ],
+      [
+       397759.58,
+       5450046.22
+      ],
+      [
+       397797.32,
+       5450066.39
+      ],
+      [
+       397798.08,
+       5450108.52
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0015",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Extensivierung von Grünland Pirmasens",
+    "aktenzeichen": "UNB-317-951/2022",
+    "gemeinde": "Pirmasens",
+    "gemeinde_schluessel": "07317000",
+    "gemarkung": "Pirmasens-Ost",
+    "gemarkung_schluessel": "079670",
+    "flurstuecke": "Flur 28, Nr. 118/9",
+    "status": " in Umsetzung ",
+    "flaeche_ha": "1,2522",
+    "oekopunkte_gesamt": 155444,
+    "oekopunkte_verfuegbar": 98484,
+    "massnahme": "Pflanzung einer Feldhecke",
+    "zielzustand": "Streuobstwiese",
+    "eintragungsstelle": "SGD Süd - Obere Naturschutzbehörde",
+    "datum_eintragung": "17.03.2016"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1016",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       349648.6,
+       5539798.0
+      ],
+      [
+       349618.38,
+       5539861.22
+      ],
+      [
+       349567.02,
+       5539907.74
+      ],
+      [
+       349499.04,
+       5539897.49
+      ],
+      [
+       349438.95,
+       5539865.14
+      ],
+      [
+       349413.68,
+       5539798.0
+      ],
+      [
+       349453.39,
+       5539741.35
+      ],
+      [
+       349500.7,
+       5539703.6
+      ],
+      [
+       349560.89,
+       5539707.12
+      ],
+      [
+       349629.21,
+       5539726.91
+      ],
+      [
+       349648.6,
+       5539798.0
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0016",
+    "objektart": "Kompensationsfläche",
+    "bezeichnung": "Anlage einer Streuobstwiese Wittlich",
+    "aktenzeichen": "UNB-231-756/2024",
+    "gemeinde": "Wittlich",
+    "gemeinde_schluessel": "07231134",
+    "gemarkung": "Wittlich-Ost",
+    "gemarkung_schluessel": "078258",
+    "flurstuecke": "Flur 6, Nr. 144/3",
+    "status": " in Umsetzung ",
+    "flaeche_ha": "3,4859",
+    "oekopunkte_gesamt": null,
+    "oekopunkte_verfuegbar": null,
+    "massnahme": "Entwicklung eines Auwalds",
+    "zielzustand": "Magerrasen",
+    "eintragungsstelle": "Stiftung Natur und Umwelt Rheinland-Pfalz",
+    "datum_eintragung": "2023-08-09"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1017",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       415917.5,
+       5586485.51
+      ],
+      [
+       415899.8,
+       5586534.18
+      ],
+      [
+       415854.04,
+       5586550.85
+      ],
+      [
+       415806.81,
+       5586565.53
+      ],
+      [
+       415768.15,
+       5586532.48
+      ],
+      [
+       415745.88,
+       5586485.51
+      ],
+      [
+       415773.72,
+       5586442.58
+      ],
+      [
+       415809.57,
+       5586413.98
+      ],
+      [
+       415856.38,
+       5586412.96
+      ],
+      [
+       415903.57,
+       5586434.09
+      ],
+      [
+       415917.5,
+       5586485.51
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0017",
+    "objektart": "OEKOKONTO",
+    "bezeichnung": "Entwicklung eines Auwalds Montabaur",
+    "aktenzeichen": "UNB-143-502/2025",
+    "gemeinde": "Montabaur",
+    "gemeinde_schluessel": "07143048",
+    "gemarkung": "Montabaur-Nord",
+    "gemarkung_schluessel": "076056",
+    "flurstuecke": "Flur 9, Nr. 153/6",
+    "status": "Umsetzung abgeschlossen",
+    "flaeche_ha": "1,8754",
+    "oekopunkte_gesamt": 262335,
+    "oekopunkte_verfuegbar": 190938,
+    "massnahme": "Entwicklung eines Auwalds",
+    "zielzustand": "Magerrasen",
+    "eintragungsstelle": "SGD Nord - Obere Naturschutzbehörde",
+    "datum_eintragung": "2022-08-22"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1018",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       435015.21,
+       5511534.31
+      ],
+      [
+       435009.64,
+       5511567.72
+      ],
+      [
+       434980.61,
+       5511586.51
+      ],
+      [
+       434947.49,
+       5511584.03
+      ],
+      [
+       434916.74,
+       5511568.39
+      ],
+      [
+       434912.14,
+       5511534.31
+      ],
+      [
+       434920.69,
+       5511503.1
+      ],
+      [
+       434945.53,
+       5511478.55
+      ],
+      [
+       434979.87,
+       5511484.38
+      ],
+      [
+       435004.7,
+       5511504.48
+      ],
+      [
+       435015.21,
+       5511534.31
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0018",
+    "objektart": "Kompensationsflaeche",
+    "bezeichnung": "Renaturierung eines Bachabschnitts Alzey",
+    "aktenzeichen": "UNB-331-428/2015",
+    "gemeinde": "Alzey",
+    "gemeinde_schluessel": "07331003",
+    "gemarkung": "Alzey-Ost",
+    "gemarkung_schluessel": "078309",
+    "flurstuecke": "Flur 30, Nr. 371/7",
+    "status": "Umgesetzt",
+    "flaeche_ha": 0.8566,
+    "oekopunkte_gesamt": null,
+    "oekopunkte_verfuegbar": null,
+    "massnahme": "Umwandlung von Acker in Magerrasen",
+    "zielzustand": "Auwald",
+    "eintragungsstelle": "SGD Süd - Obere Naturschutzbehörde",
+    "datum_eintragung": "2022-02-27"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1019",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       445825.59,
+       5536194.95
+      ],
+      [
+       445808.61,
+       5536233.71
+      ],
+      [
+       445775.95,
+       5536258.61
+      ],
+      [
+       445735.36,
+       5536256.21
+      ],
+      [
+       445698.33,
+       5536236.32
+      ],
+      [
+       445682.18,
+       5536194.95
+      ],
+      [
+       445700.75,
+       5536155.35
+      ],
+      [
+       445735.89,
+       5536135.33
+      ],
+      [
+       445776.18,
+       5536130.57
+      ],
+      [
+       445804.35,
+       5536159.29
+      ],
+      [
+       445825.59,
+       5536194.95
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0019",
+    "objektart": "Ersatzzahlungsmaßnahme",
+    "bezeichnung": "Extensivierung von Grünland Mainz",
+    "aktenzeichen": "UNB-315-757/2022",
+    "gemeinde": "Mainz",
+    "gemeinde_schluessel": "07315000",
+    "gemarkung": "Mainz-Ost",
+    "gemarkung_schluessel": "075826",
+    "flurstuecke": "Flur 25, Nr. 55/9",
+    "status": " in Umsetzung ",
+    "flaeche_ha": 1.3168,
+    "oekopunkte_gesamt": null,
+    "oekopunkte_verfuegbar": null,
+    "massnahme": "Umwandlung von Acker in Magerrasen",
+    "zielzustand": "Auwald",
+    "eintragungsstelle": "SGD Süd - Obere Naturschutzbehörde",
+    "datum_eintragung": "07.04.2023"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1020",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       399251.79,
+       5577913.15
+      ],
+      [
+       399236.72,
+       5577952.7
+      ],
+      [
+       399206.29,
+       5577987.05
+      ],
+      [
+       399160.49,
+       5577980.22
+      ],
+      [
+       399124.19,
+       5577955.36
+      ],
+      [
+       399108.52,
+       5577913.15
+      ],
+      [
+       399124.32,
+       5577871.04
+      ],
+      [
+       399161.26,
+       5577848.45
+      ],
+      [
+       399201.68,
+       5577853.45
+      ],
+      [
+       399241.81,
+       5577869.91
+      ],
+      [
+       399251.79,
+       5577913.15
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0020",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Anlage einer Streuobstwiese Koblenz",
+    "aktenzeichen": "UNB-111-773/2021",
+    "gemeinde": "Koblenz",
+    "gemeinde_schluessel": "07111000",
+    "gemarkung": "Koblenz-Mitte",
+    "gemarkung_schluessel": "075612",
+    "flurstuecke": "Flur 5, Nr. 371/6",
+    "status": "Umsetzung abgeschlossen",
+    "flaeche_ha": "1,4667",
+    "oekopunkte_gesamt": 138006,
+    "oekopunkte_verfuegbar": 122087,
+    "massnahme": "Renaturierung eines Bachabschnitts",
+    "zielzustand": "Magerrasen",
+    "eintragungsstelle": "Stadtverwaltung Koblenz - Untere Naturschutzbehörde",
+    "datum_eintragung": "2021-03-11"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1021",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       330512.52,
+       5515377.31
+      ],
+      [
+       330502.81,
+       5515444.83
+      ],
+      [
+       330446.5,
+       5515490.07
+      ],
+      [
+       330374.39,
+       5515486.47
+      ],
+      [
+       330332.59,
+       5515433.45
+      ],
+      [
+       330302.87,
+       5515377.31
+      ],
+      [
+       330328.49,
+       5515318.19
+      ],
+      [
+       330381.24,
+       5515289.21
+      ],
+      [
+       330439.25,
+       5515286.86
+      ],
+      [
+       330502.01,
+       5515310.36
+      ],
+      [
+       330512.52,
+       5515377.31
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0021",
+    "objektart": "Kompensationsfläche",
+    "bezeichnung": "Entwicklung eines Auwalds Trier",
+    "aktenzeichen": "UNB-211-606/2016",
+    "gemeinde": "Trier",
+    "gemeinde_schluessel": "07211000",
+    "gemarkung": "Trier-Mitte",
+    "gemarkung_schluessel": "071166",
+    "flurstuecke": "Flur 24, Nr. 287/7",
+    "status": "Umgesetzt",
+    "flaeche_ha": 3.2804,
+    "oekopunkte_gesamt": null,
+    "oekopunkte_verfuegbar": null,
+    "massnahme": "Pflanzung einer Feldhecke",
+    "zielzustand": "Auwald",
+    "eintragungsstelle": "Stiftung Natur und Umwelt Rheinland-Pfalz",
+    "datum_eintragung": "2021-06-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1022",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       410881.35,
+       5476494.64
+      ],
+      [
+       410877.93,
+       5476541.56
+      ],
+      [
+       410833.52,
+       5476556.72
+      ],
+      [
+       410789.43,
+       5476568.25
+      ],
+      [
+       410760.12,
+       5476533.32
+      ],
+      [
+       410750.4,
+       5476494.64
+      ],
+      [
+       410752.23,
+       5476450.24
+      ],
+      [
+       410792.68,
+       5476431.01
+      ],
+      [
+       410833.71,
+       5476431.99
+      ],
+      [
+       410878.74,
+       5476447.14
+      ],
+      [
+       410881.35,
+       5476494.64
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0022",
+    "objektart": "OEKOKONTO",
+    "bezeichnung": "Extensivierung von Grünland Kaiserslautern",
+    "aktenzeichen": "UNB-312-428/2022",
+    "gemeinde": "Kaiserslautern",
+    "gemeinde_schluessel": "07312000",
+    "gemarkung": "Kaiserslautern-West",
+    "gemarkung_schluessel": "076199",
+    "flurstuecke": "Flur 30, Nr. 130/3",
+    "status": "umgesetzt",
+    "flaeche_ha": "1,4684",
+    "oekopunkte_gesamt": 120924,
+    "oekopunkte_verfuegbar": 35365,
+    "massnahme": "Pflanzung einer Feldhecke",
+    "zielzustand": "Streuobstwiese",
+    "eintragungsstelle": "Kreisverwaltung Mainz-Bingen - Untere Naturschutzbehörde",
+    "datum_eintragung": "12.07.2021"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1023",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       455718.6,
+       5480725.64
+      ],
+      [
+       455708.8,
+       5480779.03
+      ],
+      [
+       455662.68,
+       5480809.84
+      ],
+      [
+       455610.43,
+       5480802.24
+      ],
+      [
+       455556.12,
+       5480783.19
+      ],
+      [
+       455552.15,
+       5480725.64
+      ],
+      [
+       455569.44,
+       5480677.78
+      ],
+      [
+       455604.95,
+       5480632.16
+      ],
+      [
+       455665.76,
+       5480631.95
+      ],
+      [
+       455705.6,
+       5480674.58
+      ],
+      [
+       455718.6,
+       5480725.64
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0023",
+    "objektart": "Kompensationsflaeche",
+    "bezeichnung": "Entwicklung eines Auwalds Ludwigshafen am Rhein",
+    "aktenzeichen": "UNB-314-552/2020",
+    "gemeinde": "Ludwigshafen am Rhein",
+    "gemeinde_schluessel": "07314000",
+    "gemarkung": "Ludwigshafen-Mitte",
+    "gemarkung_schluessel": "074140",
+    "flurstuecke": "Flur 22, Nr. 20/8",
+    "status": " in Umsetzung ",
+    "flaeche_ha": "2,3222",
+    "oekopunkte_gesamt": null,
+    "oekopunkte_verfuegbar": null,
+    "massnahme": "Renaturierung eines Bachabschnitts",
+    "zielzustand": "Extensivgrünland",
+    "eintragungsstelle": "Stadtverwaltung Koblenz - Untere Naturschutzbehörde",
+    "datum_eintragung": "21.04.2017"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1024",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       438862.26,
+       5466570.26
+      ],
+      [
+       438853.93,
+       5466598.25
+      ],
+      [
+       438834.13,
+       5466627.88
+      ],
+      [
+       438799.19,
+       5466620.17
+      ],
+      [
+       438776.43,
+       5466598.58
+      ],
+      [
+       438762.21,
+       5466570.26
+      ],
+      [
+       438776.05,
+       5466541.66
+      ],
+      [
+       438801.13,
+       5466526.31
+      ],
+      [
+       438829.92,
+       5466525.59
+      ],
+      [
+       438859.17,
+       5466538.47
+      ],
+      [
+       438862.26,
+       5466570.26
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0024",
+    "objektart": "Ersatzzahlungsmaßnahme",
+    "bezeichnung": "Anlage einer Streuobstwiese Neustadt an der Weinstraße",
+    "aktenzeichen": "UNB-316-384/2025",
+    "gemeinde": "Neustadt an der Weinstraße",
+    "gemeinde_schluessel": "07316000",
+    "gemarkung": "Neustadt-Ost",
+    "gemarkung_schluessel": "079825",
+    "flurstuecke": "Flur 30, Nr. 127/6",
+    "status": "geplant",
+    "flaeche_ha": "0,7485",
+    "oekopunkte_gesamt": null,
+    "oekopunkte_verfuegbar": null,
+    "massnahme": "Anlage einer Streuobstwiese",
+    "zielzustand": "Streuobstwiese",
+    "eintragungsstelle": "Stiftung Natur und Umwelt Rheinland-Pfalz",
+    "datum_eintragung": "2023-02-14"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1025",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       419420.47,
+       5520606.19
+      ],
+      [
+       419397.94,
+       5520671.97
+      ],
+      [
+       419340.17,
+       5520707.04
+      ],
+      [
+       419270.82,
+       5520718.78
+      ],
+      [
+       419221.53,
+       5520668.59
+      ],
+      [
+       419210.22,
+       5520606.19
+      ],
+      [
+       419222.53,
+       5520544.53
+      ],
+      [
+       419270.58,
+       5520492.86
+      ],
+      [
+       419343.64,
+       5520494.68
+      ],
+      [
+       419392.03,
+       5520544.71
+      ],
+      [
+       419420.47,
+       5520606.19
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0025",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Anlage einer Streuobstwiese Bad Kreuznach",
+    "aktenzeichen": "UNB-133-599/2022",
+    "gemeinde": "Bad Kreuznach",
+    "gemeinde_schluessel": "07133006",
+    "gemarkung": "Bad-Ost",
+    "gemarkung_schluessel": "079306",
+    "flurstuecke": "Flur 26, Nr. 380/1",
+    "status": " in Umsetzung ",
+    "flaeche_ha": "3,5477",
+    "oekopunkte_gesamt": 419324,
+    "oekopunkte_verfuegbar": 202988,
+    "massnahme": "Renaturierung eines Bachabschnitts",
+    "zielzustand": "Magerrasen",
+    "eintragungsstelle": "SGD Süd - Obere Naturschutzbehörde",
+    "datum_eintragung": "2020-02-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1026",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       393170.75,
+       5590550.55
+      ],
+      [
+       393165.24,
+       5590611.15
+      ],
+      [
+       393111.62,
+       5590642.23
+      ],
+      [
+       393052.83,
+       5590639.81
+      ],
+      [
+       393007.2,
+       5590604.78
+      ],
+      [
+       392973.59,
+       5590550.55
+      ],
+      [
+       393002.62,
+       5590493.0
+      ],
+      [
+       393055.27,
+       5590468.81
+      ],
+      [
+       393109.6,
+       5590465.1
+      ],
+      [
+       393157.32,
+       5590495.71
+      ],
+      [
+       393170.75,
+       5590550.55
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0026",
+    "objektart": "Kompensationsfläche",
+    "bezeichnung": "Extensivierung von Grünland Neuwied",
+    "aktenzeichen": "UNB-138-799/2017",
+    "gemeinde": "Neuwied",
+    "gemeinde_schluessel": "07138045",
+    "gemarkung": "Neuwied-Ost",
+    "gemarkung_schluessel": "072651",
+    "flurstuecke": "Flur 30, Nr. 392/3",
+    "status": "IN PFLEGE",
+    "flaeche_ha": 2.6513,
+    "oekopunkte_gesamt": null,
+    "oekopunkte_verfuegbar": null,
+    "massnahme": "Umwandlung von Acker in Magerrasen",
+    "zielzustand": "Magerrasen",
+    "eintragungsstelle": "Kreisverwaltung Mainz-Bingen - Untere Naturschutzbehörde",
+    "datum_eintragung": "2024-05-08"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1027",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       452085.45,
+       5500591.12
+      ],
+      [
+       452032.88,
+       5500657.32
+      ],
+      [
+       451982.7,
+       5500717.14
+      ],
+      [
+       451897.8,
+       5500726.39
+      ],
+      [
+       451823.88,
+       5500676.75
+      ],
+      [
+       451821.57,
+       5500591.12
+      ],
+      [
+       451823.27,
+       5500505.04
+      ],
+      [
+       451904.45,
+       5500476.31
+      ],
+      [
+       451982.46,
+       5500465.83
+      ],
+      [
+       452033.65,
+       5500524.35
+      ],
+      [
+       452085.45,
+       5500591.12
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0027",
+    "objektart": "OEKOKONTO",
+    "bezeichnung": "Entwicklung eines Auwalds Worms",
+    "aktenzeichen": "UNB-319-732/2022",
+    "gemeinde": "Worms",
+    "gemeinde_schluessel": "07319000",
+    "gemarkung": "Worms-West",
+    "gemarkung_schluessel": "071076",
+    "flurstuecke": "Flur 12, Nr. 159/2",
+    "status": " in Umsetzung ",
+    "flaeche_ha": "5,0156",
+    "oekopunkte_gesamt": 425261,
+    "oekopunkte_verfuegbar": 306972,
+    "massnahme": "Entwicklung eines Auwalds",
+    "zielzustand": "Feldgehölz",
+    "eintragungsstelle": "SGD Süd - Obere Naturschutzbehörde",
+    "datum_eintragung": "2020-11-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1028",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       445116.35,
+       5536301.91
+      ],
+      [
+       445316.35,
+       5536501.91
+      ],
+      [
+       445316.35,
+       5536301.91
+      ],
+      [
+       445116.35,
+       5536501.91
+      ],
+      [
+       445116.35,
+       5536301.91
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0028",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Extensivierung von Grünland Mainz",
+    "aktenzeichen": "UNB-315-248/2019",
+    "gemeinde": "Mainz",
+    "gemeinde_schluessel": "07315000",
+    "gemarkung": "Mainz-Ost",
+    "gemarkung_schluessel": "071614",
+    "flurstuecke": "Flur 13, Nr. 105/9",
+    "status": "Umgesetzt",
+    "flaeche_ha": null,
+    "oekopunkte_gesamt": 561734,
+    "oekopunkte_verfuegbar": 429035,
+    "massnahme": "Umwandlung von Acker in Magerrasen",
+    "zielzustand": "Magerrasen",
+    "eintragungsstelle": "Stadtverwaltung Koblenz - Untere Naturschutzbehörde",
+    "datum_eintragung": "09.05.2016"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1029",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       399088,
+       5577896
+      ],
+      [
+       399388,
+       5577896
+      ],
+      [
+       399388,
+       5578196
+      ],
+      [
+       399088,
+       5578196
+      ],
+      [
+       399088,
+       5577896
+      ]
+     ],
+     [
+      [
+       399188,
+       5577996
+      ],
+      [
+       399188,
+       5578096
+      ],
+      [
+       399288,
+       5578096
+      ],
+      [
+       399288,
+       5577996
+      ],
+      [
+       399188,
+       5577996
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0029",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Extensivierung von Grünland Koblenz",
+    "aktenzeichen": "UNB-111-156/2023",
+    "gemeinde": "Koblenz",
+    "gemeinde_schluessel": "07111000",
+    "gemarkung": "Koblenz-Nord",
+    "gemarkung_schluessel": "071773",
+    "flurstuecke": "Flur 5, Nr. 256/7",
+    "status": " in Umsetzung ",
+    "flaeche_ha": "8,0000",
+    "oekopunkte_gesamt": 709781,
+    "oekopunkte_verfuegbar": 125147,
+    "massnahme": "Pflanzung einer Feldhecke",
+    "zielzustand": "Auwald",
+    "eintragungsstelle": "Stadtverwaltung Koblenz - Untere Naturschutzbehörde",
+    "datum_eintragung": "18.10.2018"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1030",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       331635.92,
+       5515499.05,
+       142.5
+      ],
+      [
+       331618.5,
+       5515550.28,
+       142.5
+      ],
+      [
+       331575.08,
+       5515582.42,
+       142.5
+      ],
+      [
+       331514.04,
+       5515603.53,
+       142.5
+      ],
+      [
+       331466.38,
+       5515558.34,
+       142.5
+      ],
+      [
+       331458.94,
+       5515499.05,
+       142.5
+      ],
+      [
+       331462.56,
+       5515436.99,
+       142.5
+      ],
+      [
+       331520.18,
+       5515413.47,
+       142.5
+      ],
+      [
+       331580.6,
+       5515398.67,
+       142.5
+      ],
+      [
+       331621.79,
+       5515445.43,
+       142.5
+      ],
+      [
+       331635.92,
+       5515499.05,
+       142.5
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0030",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Renaturierung eines Bachabschnitts Trier",
+    "aktenzeichen": "UNB-211-436/2020",
+    "gemeinde": "Trier",
+    "gemeinde_schluessel": "07211000",
+    "gemarkung": "Trier-Süd",
+    "gemarkung_schluessel": "074249",
+    "flurstuecke": "Flur 18, Nr. 14/6",
+    "status": "IN PFLEGE",
+    "flaeche_ha": "2,6759",
+    "oekopunkte_gesamt": 328942,
+    "oekopunkte_verfuegbar": 50323,
+    "massnahme": "Renaturierung eines Bachabschnitts",
+    "zielzustand": "Magerrasen",
+    "eintragungsstelle": "Stadtverwaltung Koblenz - Untere Naturschutzbehörde",
+    "datum_eintragung": "2016-10-13"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1031",
+   "geometry": null,
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0031",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Entwicklung eines Auwalds Kaiserslautern",
+    "aktenzeichen": "UNB-312-321/2022",
+    "gemeinde": "Kaiserslautern",
+    "gemeinde_schluessel": "07312000",
+    "gemarkung": "Kaiserslautern-Ost",
+    "gemarkung_schluessel": "075475",
+    "flurstuecke": "Flur 11, Nr. 356/3",
+    "status": "umgesetzt",
+    "flaeche_ha": 3.5742,
+    "oekopunkte_gesamt": 300339,
+    "oekopunkte_verfuegbar": 246484,
+    "massnahme": "Pflanzung einer Feldhecke",
+    "zielzustand": "Feldgehölz",
+    "eintragungsstelle": "Stadtverwaltung Koblenz - Untere Naturschutzbehörde",
+    "datum_eintragung": "2017-02-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1032",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     456306,
+     5481223
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0032",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Renaturierung eines Bachabschnitts Ludwigshafen am Rhein",
+    "aktenzeichen": "UNB-314-639/2018",
+    "gemeinde": "Ludwigshafen am Rhein",
+    "gemeinde_schluessel": "07314000",
+    "gemarkung": "Ludwigshafen-Süd",
+    "gemarkung_schluessel": "071131",
+    "flurstuecke": "Flur 26, Nr. 224/7",
+    "status": "geplant",
+    "flaeche_ha": "4,0865",
+    "oekopunkte_gesamt": 506604,
+    "oekopunkte_verfuegbar": 79059,
+    "massnahme": "Umwandlung von Acker in Magerrasen",
+    "zielzustand": "Extensivgrünland",
+    "eintragungsstelle": "Kreisverwaltung Mainz-Bingen - Untere Naturschutzbehörde",
+    "datum_eintragung": "2023-04-14"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1033",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       438420,
+       5465813
+      ],
+      [
+       438520,
+       5465813
+      ],
+      [
+       438620,
+       5465813
+      ],
+      [
+       438420,
+       5465813
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0033",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Extensivierung von Grünland Neustadt an der Weinstraße",
+    "aktenzeichen": "UNB-316-269/2018",
+    "gemeinde": "Neustadt an der Weinstraße",
+    "gemeinde_schluessel": "07316000",
+    "gemarkung": "Neustadt-Süd",
+    "gemarkung_schluessel": "073346",
+    "flurstuecke": "Flur 30, Nr. 398/3",
+    "status": " in Umsetzung ",
+    "flaeche_ha": 1.1057,
+    "oekopunkte_gesamt": 112942,
+    "oekopunkte_verfuegbar": 25518,
+    "massnahme": "Entwicklung eines Auwalds",
+    "zielzustand": "Auwald",
+    "eintragungsstelle": "SGD Süd - Obere Naturschutzbehörde",
+    "datum_eintragung": "2017-06-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1034",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       418627,
+       5521166
+      ],
+      [
+       418627.5,
+       5521166
+      ],
+      [
+       418627.5,
+       5521166.5
+      ],
+      [
+       418627,
+       5521166.5
+      ],
+      [
+       418627,
+       5521166
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0034",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Umwandlung von Acker in Magerrasen Bad Kreuznach",
+    "aktenzeichen": "UNB-133-842/2019",
+    "gemeinde": "Bad Kreuznach",
+    "gemeinde_schluessel": "07133006",
+    "gemarkung": "Bad-Nord",
+    "gemarkung_schluessel": "073440",
+    "flurstuecke": "Flur 24, Nr. 333/3",
+    "status": "geplant",
+    "flaeche_ha": "0,8116",
+    "oekopunkte_gesamt": 87525,
+    "oekopunkte_verfuegbar": 75397,
+    "massnahme": "Renaturierung eines Bachabschnitts",
+    "zielzustand": "Magerrasen",
+    "eintragungsstelle": "Kreisverwaltung Mainz-Bingen - Untere Naturschutzbehörde",
+    "datum_eintragung": "2019-07-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1035",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       392625,
+       5590684
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0035",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Entwicklung eines Auwalds Neuwied",
+    "aktenzeichen": "UNB-138-346/2022",
+    "gemeinde": "Neuwied",
+    "gemeinde_schluessel": "07138045",
+    "gemarkung": "Neuwied-Süd",
+    "gemarkung_schluessel": "075250",
+    "flurstuecke": "Flur 9, Nr. 189/4",
+    "status": "Umgesetzt",
+    "flaeche_ha": "3,5307",
+    "oekopunkte_gesamt": 288615,
+    "oekopunkte_verfuegbar": 195315,
+    "massnahme": "Extensivierung von Grünland",
+    "zielzustand": "Magerrasen",
+    "eintragungsstelle": "SGD Süd - Obere Naturschutzbehörde",
+    "datum_eintragung": "2016-10-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1036",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       451317.83,
+       5500559.38
+      ],
+      [
+       451308.08,
+       5500583.87
+      ],
+      [
+       451287.75,
+       5500600.57
+      ],
+      [
+       451259.88,
+       5500603.98
+      ],
+      [
+       451235.28,
+       5500587.78
+      ],
+      [
+       451220.15,
+       5500559.38
+      ],
+      [
+       451240.69,
+       5500534.91
+      ],
+      [
+       451258.01,
+       5500509.04
+      ],
+      [
+       451288.8,
+       5500514.96
+      ],
+      [
+       451308.95,
+       5500534.26
+      ],
+      [
+       451317.83,
+       5500559.38
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "   ",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Pflanzung einer Feldhecke Worms",
+    "aktenzeichen": "UNB-319-356/2023",
+    "gemeinde": "Worms",
+    "gemeinde_schluessel": "07319000",
+    "gemarkung": "Worms-Süd",
+    "gemarkung_schluessel": "077923",
+    "flurstuecke": "Flur 18, Nr. 358/1",
+    "status": "Umsetzung abgeschlossen",
+    "flaeche_ha": "0,6265",
+    "oekopunkte_gesamt": 86297,
+    "oekopunkte_verfuegbar": 38086,
+    "massnahme": "Renaturierung eines Bachabschnitts",
+    "zielzustand": "Streuobstwiese",
+    "eintragungsstelle": "Kreisverwaltung Mainz-Bingen - Untere Naturschutzbehörde",
+    "datum_eintragung": "2022-03-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1037",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       459639.9,
+       5464655.2
+      ],
+      [
+       459610.18,
+       5464738.7
+      ],
+      [
+       459540.88,
+       5464795.64
+      ],
+      [
+       459452.66,
+       5464786.26
+      ],
+      [
+       459367.79,
+       5464747.8
+      ],
+      [
+       459368.41,
+       5464655.2
+      ],
+      [
+       459394.94,
+       5464582.32
+      ],
+      [
+       459456.83,
+       5464536.98
+      ],
+      [
+       459542.89,
+       5464508.58
+      ],
+      [
+       459601.79,
+       5464577.79
+      ],
+      [
+       459639.9,
+       5464655.2
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0037",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Entwicklung eines Auwalds Speyer",
+    "aktenzeichen": "UNB-318-903/2024",
+    "gemeinde": "Speyer",
+    "gemeinde_schluessel": "07318000",
+    "gemarkung": "Speyer-West",
+    "gemarkung_schluessel": "076570",
+    "flurstuecke": "Flur 23, Nr. 213/8",
+    "status": "umgesetzt",
+    "flaeche_ha": 5.6788,
+    "oekopunkte_gesamt": 569390,
+    "oekopunkte_verfuegbar": 277089,
+    "massnahme": "Extensivierung von Grünland",
+    "zielzustand": "Extensivgrünland",
+    "eintragungsstelle": "SGD Süd - Obere Naturschutzbehörde",
+    "datum_eintragung": "24.01.2021"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1037",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       459639.9,
+       5464655.2
+      ],
+      [
+       459610.18,
+       5464738.7
+      ],
+      [
+       459540.88,
+       5464795.64
+      ],
+      [
+       459452.66,
+       5464786.26
+      ],
+      [
+       459367.79,
+       5464747.8
+      ],
+      [
+       459368.41,
+       5464655.2
+      ],
+      [
+       459394.94,
+       5464582.32
+      ],
+      [
+       459456.83,
+       5464536.98
+      ],
+      [
+       459542.89,
+       5464508.58
+      ],
+      [
+       459601.79,
+       5464577.79
+      ],
+      [
+       459639.9,
+       5464655.2
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0037",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Entwicklung eines Auwalds Speyer",
+    "aktenzeichen": "UNB-318-903/2024",
+    "gemeinde": "Speyer",
+    "gemeinde_schluessel": "07318000",
+    "gemarkung": "Speyer-West",
+    "gemarkung_schluessel": "076570",
+    "flurstuecke": "Flur 23, Nr. 213/8",
+    "status": "in Pflege",
+    "flaeche_ha": 5.6788,
+    "oekopunkte_gesamt": 569390,
+    "oekopunkte_verfuegbar": 277089,
+    "massnahme": "Extensivierung von Grünland",
+    "zielzustand": "Extensivgrünland",
+    "eintragungsstelle": "SGD Süd - Obere Naturschutzbehörde",
+    "datum_eintragung": "24.01.2021"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1038",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       463515.5,
+       5482470.23
+      ],
+      [
+       463495.43,
+       5482499.05
+      ],
+      [
+       463472.28,
+       5482521.08
+      ],
+      [
+       463437.34,
+       5482526.91
+      ],
+      [
+       463410.94,
+       5482502.79
+      ],
+      [
+       463399.58,
+       5482470.23
+      ],
+      [
+       463413.87,
+       5482439.8
+      ],
+      [
+       463441.62,
+       5482426.71
+      ],
+      [
+       463473.4,
+       5482415.92
+      ],
+      [
+       463504.55,
+       5482434.78
+      ],
+      [
+       463515.5,
+       5482470.23
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0038",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Extensivierung von Grünland Mannheim",
+    "aktenzeichen": "UNB-222-747/2015",
+    "gemeinde": "Mannheim",
+    "gemeinde_schluessel": "08222000",
+    "gemarkung": "Mannheim-Süd",
+    "gemarkung_schluessel": "074744",
+    "flurstuecke": "Flur 22, Nr. 226/6",
+    "status": " in Umsetzung ",
+    "flaeche_ha": "0,8843",
+    "oekopunkte_gesamt": 86053,
+    "oekopunkte_verfuegbar": 67490,
+    "massnahme": "Renaturierung eines Bachabschnitts",
+    "zielzustand": "Streuobstwiese",
+    "eintragungsstelle": "Stadtverwaltung Koblenz - Untere Naturschutzbehörde",
+    "datum_eintragung": "07.04.2018"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1039",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       5536283.8,
+       445859.08
+      ],
+      [
+       5536372.63,
+       445866.71
+      ],
+      [
+       5536417.47,
+       445787.88
+      ],
+      [
+       5536418.38,
+       445700.72
+      ],
+      [
+       5536366.46,
+       445630.67
+      ],
+      [
+       5536283.8,
+       445612.06
+      ],
+      [
+       5536195.08,
+       445622.33
+      ],
+      [
+       5536162.16,
+       445704.92
+      ],
+      [
+       5536167.83,
+       445782.13
+      ],
+      [
+       5536214.19,
+       445840.25
+      ],
+      [
+       5536283.8,
+       445859.08
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0039",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Pflanzung einer Feldhecke Mainz",
+    "aktenzeichen": "UNB-315-965/2021",
+    "gemeinde": "Mainz",
+    "gemeinde_schluessel": "07315000",
+    "gemarkung": "Mainz-Nord",
+    "gemarkung_schluessel": "072911",
+    "flurstuecke": "Flur 5, Nr. 125/4",
+    "status": "Umgesetzt",
+    "flaeche_ha": "5,2863",
+    "oekopunkte_gesamt": 600906,
+    "oekopunkte_verfuegbar": 218811,
+    "massnahme": "Pflanzung einer Feldhecke",
+    "zielzustand": "Extensivgrünland",
+    "eintragungsstelle": "Stadtverwaltung Koblenz - Untere Naturschutzbehörde",
+    "datum_eintragung": "2019-03-23"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1040",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       398753.36,
+       5577576.91
+      ],
+      [
+       398723.83,
+       5577637.69
+      ],
+      [
+       398668.17,
+       5577663.09
+      ],
+      [
+       398605.55,
+       5577683.44
+      ],
+      [
+       398559.83,
+       5577635.27
+      ],
+      [
+       398538.41,
+       5577576.91
+      ],
+      [
+       398544.68,
+       5577507.53
+      ],
+      [
+       398610.89,
+       5577486.8
+      ],
+      [
+       398674.75,
+       5577470.47
+      ],
+      [
+       398728.22,
+       5577512.93
+      ],
+      [
+       398753.36,
+       5577576.91
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0040",
+    "objektart": "Eingriffsverfahren",
+    "bezeichnung": "Pflanzung einer Feldhecke Koblenz",
+    "aktenzeichen": "UNB-111-470/2022",
+    "gemeinde": "Koblenz",
+    "gemeinde_schluessel": "07111000",
+    "gemarkung": "Koblenz-Nord",
+    "gemarkung_schluessel": "071470",
+    "flurstuecke": "Flur 26, Nr. 87/7",
+    "status": "Umsetzung abgeschlossen",
+    "flaeche_ha": 3.2549,
+    "oekopunkte_gesamt": null,
+    "oekopunkte_verfuegbar": null,
+    "massnahme": "Renaturierung eines Bachabschnitts",
+    "zielzustand": "Extensivgrünland",
+    "eintragungsstelle": "SGD Nord - Obere Naturschutzbehörde",
+    "datum_eintragung": "2020-04-20"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1041",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       330695.34,
+       5514533.49
+      ],
+      [
+       330670.69,
+       5514604.39
+      ],
+      [
+       330611.56,
+       5514651.88
+      ],
+      [
+       330531.64,
+       5514661.09
+      ],
+      [
+       330469.73,
+       5514608.6
+      ],
+      [
+       330449.49,
+       5514533.49
+      ],
+      [
+       330481.48,
+       5514466.93
+      ],
+      [
+       330538.16,
+       5514425.95
+      ],
+      [
+       330611.87,
+       5514414.17
+      ],
+      [
+       330672.88,
+       5514461.0
+      ],
+      [
+       330695.34,
+       5514533.49
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0041",
+    "objektart": "Biotopverbundfläche",
+    "bezeichnung": "Umwandlung von Acker in Magerrasen Trier",
+    "aktenzeichen": "UNB-211-722/2023",
+    "gemeinde": "Trier",
+    "gemeinde_schluessel": "07211000",
+    "gemarkung": "Trier-Nord",
+    "gemarkung_schluessel": "078732",
+    "flurstuecke": "Flur 27, Nr. 358/8",
+    "status": "geplant",
+    "flaeche_ha": "4,4360",
+    "oekopunkte_gesamt": null,
+    "oekopunkte_verfuegbar": null,
+    "massnahme": "Extensivierung von Grünland",
+    "zielzustand": "Feldgehölz",
+    "eintragungsstelle": "Stiftung Natur und Umwelt Rheinland-Pfalz",
+    "datum_eintragung": "2016-09-21"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1042",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       409768.17,
+       5476203.96
+      ],
+      [
+       409751.49,
+       5476293.24
+      ],
+      [
+       409671.84,
+       5476337.03
+      ],
+      [
+       409587.14,
+       5476331.59
+      ],
+      [
+       409508.14,
+       5476291.49
+      ],
+      [
+       409477.02,
+       5476203.96
+      ],
+      [
+       409519.46,
+       5476124.66
+      ],
+      [
+       409589.46,
+       5476083.48
+      ],
+      [
+       409673.45,
+       5476065.94
+      ],
+      [
+       409751.25,
+       5476114.85
+      ],
+      [
+       409768.17,
+       5476203.96
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0042",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Extensivierung von Grünland Kaiserslautern",
+    "aktenzeichen": "UNB-312-979/2017",
+    "gemeinde": "Kaiserslautern",
+    "gemeinde_schluessel": "07312000",
+    "gemarkung": "Kaiserslautern-Ost",
+    "gemarkung_schluessel": "078267",
+    "flurstuecke": "Flur 9, Nr. 346/8",
+    "status": "vorläufig gesichert",
+    "flaeche_ha": "5,9621",
+    "oekopunkte_gesamt": 695329,
+    "oekopunkte_verfuegbar": 121530,
+    "massnahme": "Entwicklung eines Auwalds",
+    "zielzustand": "Feldgehölz",
+    "eintragungsstelle": "Kreisverwaltung Mainz-Bingen - Untere Naturschutzbehörde",
+    "datum_eintragung": "28.10.2019"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1043",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       456313.74,
+       5481476.19
+      ],
+      [
+       456308.17,
+       5481503.06
+      ],
+      [
+       456286.71,
+       5481523.96
+      ],
+      [
+       456258.15,
+       5481516.3
+      ],
+      [
+       456231.47,
+       5481505.04
+      ],
+      [
+       456226.46,
+       5481476.19
+      ],
+      [
+       456227.81,
+       5481444.67
+      ],
+      [
+       456257.92,
+       5481435.36
+      ],
+      [
+       456285.4,
+       5481432.42
+      ],
+      [
+       456307.1,
+       5481450.09
+      ],
+      [
+       456313.74,
+       5481476.19
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0043",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Anlage einer Streuobstwiese Ludwigshafen am Rhein",
+    "aktenzeichen": "UNB-314-508/2022",
+    "gemeinde": "Ludwigshafen am Rhein",
+    "gemeinde_schluessel": "07314000",
+    "gemarkung": "Ludwigshafen-Ost",
+    "gemarkung_schluessel": "072261",
+    "flurstuecke": "Flur 21, Nr. 232/5",
+    "status": "abgeschlossen",
+    "flaeche_ha": 0.624,
+    "oekopunkte_gesamt": 82371,
+    "oekopunkte_verfuegbar": 47092,
+    "massnahme": "Umwandlung von Acker in Magerrasen",
+    "zielzustand": "Feldgehölz",
+    "eintragungsstelle": "SGD Nord - Obere Naturschutzbehörde",
+    "datum_eintragung": "23.10.2022"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1044",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       437761.22,
+       5466557.42
+      ],
+      [
+       437732.77,
+       5466614.43
+      ],
+      [
+       437691.71,
+       5466672.55
+      ],
+      [
+       437621.06,
+       5466659.72
+      ],
+      [
+       437557.09,
+       5466628.04
+      ],
+      [
+       437532.71,
+       5466557.42
+      ],
+      [
+       437568.52,
+       5466495.09
+      ],
+      [
+       437621.29,
+       5466455.8
+      ],
+      [
+       437688.28,
+       5466452.85
+      ],
+      [
+       437731.42,
+       5466501.39
+      ],
+      [
+       437761.22,
+       5466557.42
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0044",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Anlage einer Streuobstwiese Neustadt an der Weinstraße",
+    "aktenzeichen": "UNB-316-211/2023",
+    "gemeinde": "Neustadt an der Weinstraße",
+    "gemeinde_schluessel": "07316000",
+    "gemarkung": "Neustadt-West",
+    "gemarkung_schluessel": "076102",
+    "flurstuecke": "Flur 26, Nr. 178/1",
+    "status": "Umsetzung abgeschlossen",
+    "flaeche_ha": "12.500",
+    "oekopunkte_gesamt": 427932,
+    "oekopunkte_verfuegbar": 103610,
+    "massnahme": "Umwandlung von Acker in Magerrasen",
+    "zielzustand": "Feldgehölz",
+    "eintragungsstelle": "Stadtverwaltung Koblenz - Untere Naturschutzbehörde",
+    "datum_eintragung": "2020-12-22"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1045",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       438684.69,
+       5465649.46
+      ],
+      [
+       438665.85,
+       5465714.17
+      ],
+      [
+       438608.28,
+       5465746.39
+      ],
+      [
+       438545.98,
+       5465744.28
+      ],
+      [
+       438488.91,
+       5465713.31
+      ],
+      [
+       438456.87,
+       5465649.46
+      ],
+      [
+       438494.0,
+       5465589.31
+      ],
+      [
+       438547.95,
+       5465560.72
+      ],
+      [
+       438610.0,
+       5465547.23
+      ],
+      [
+       438657.36,
+       5465590.92
+      ],
+      [
+       438684.69,
+       5465649.46
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0045",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Anlage einer Streuobstwiese Neustadt an der Weinstraße",
+    "aktenzeichen": "UNB-316-640/2018",
+    "gemeinde": "Neustadt an der WeinstraÃŸe",
+    "gemeinde_schluessel": "07316000",
+    "gemarkung": "Neustadt-Ost",
+    "gemarkung_schluessel": "072968",
+    "flurstuecke": "Flur 15, Nr. 316/4",
+    "status": "geplant",
+    "flaeche_ha": 3.2451,
+    "oekopunkte_gesamt": 307816,
+    "oekopunkte_verfuegbar": 236862,
+    "massnahme": "Extensivierung von Grünland",
+    "zielzustand": "Extensivgrünland",
+    "eintragungsstelle": "Stiftung Natur und Umwelt Rheinland-Pfalz",
+    "datum_eintragung": "2024-01-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1046",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       398896.0,
+       5578842.81
+      ],
+      [
+       398881.2,
+       5578922.59
+      ],
+      [
+       398807.74,
+       5578954.66
+      ],
+      [
+       398728.62,
+       5578974.48
+      ],
+      [
+       398668.85,
+       5578917.31
+      ],
+      [
+       398663.08,
+       5578842.81
+      ],
+      [
+       398663.01,
+       5578764.06
+      ],
+      [
+       398730.77,
+       5578717.75
+      ],
+      [
+       398809.98,
+       5578724.09
+      ],
+      [
+       398883.36,
+       5578761.46
+      ],
+      [
+       398896.0,
+       5578842.81
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0046",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Umwandlung von Acker in Magerrasen Koblenz",
+    "aktenzeichen": "UNB-111-120/2024",
+    "gemeinde": "Mainz",
+    "gemeinde_schluessel": "07111000",
+    "gemarkung": "Koblenz-Nord",
+    "gemarkung_schluessel": "071441",
+    "flurstuecke": "Flur 25, Nr. 115/9",
+    "status": " in Umsetzung ",
+    "flaeche_ha": 4.8051,
+    "oekopunkte_gesamt": 526233,
+    "oekopunkte_verfuegbar": 163854,
+    "massnahme": "Entwicklung eines Auwalds",
+    "zielzustand": "Auwald",
+    "eintragungsstelle": "SGD Süd - Obere Naturschutzbehörde",
+    "datum_eintragung": "2023-09-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1047",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       331379.4,
+       5514701.77
+      ],
+      [
+       331335.1,
+       5514761.4
+      ],
+      [
+       331289.37,
+       5514813.64
+      ],
+      [
+       331222.47,
+       5514795.79
+      ],
+      [
+       331159.59,
+       5514769.65
+      ],
+      [
+       331132.31,
+       5514701.77
+      ],
+      [
+       331168.1,
+       5514640.07
+      ],
+      [
+       331213.61,
+       5514580.48
+      ],
+      [
+       331282.89,
+       5514609.85
+      ],
+      [
+       331346.12,
+       5514634.13
+      ],
+      [
+       331379.4,
+       5514701.77
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0047",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Renaturierung eines Bachabschnitts Trier",
+    "aktenzeichen": "UNB-211-667/2024",
+    "gemeinde": "Trier",
+    "gemeinde_schluessel": 7211000,
+    "gemarkung": "Trier-Nord",
+    "gemarkung_schluessel": "074417",
+    "flurstuecke": "Flur 24, Nr. 223/3",
+    "status": "Umsetzung abgeschlossen",
+    "flaeche_ha": 3.6969,
+    "oekopunkte_gesamt": 474548,
+    "oekopunkte_verfuegbar": 407575,
+    "massnahme": "Renaturierung eines Bachabschnitts",
+    "zielzustand": "Extensivgrünland",
+    "eintragungsstelle": "SGD Nord - Obere Naturschutzbehörde",
+    "datum_eintragung": "2023-01-28"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1048",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       418435.92,
+       5520499.56
+      ],
+      [
+       418427.35,
+       5520548.62
+      ],
+      [
+       418383.76,
+       5520573.21
+      ],
+      [
+       418332.31,
+       5520584.24
+      ],
+      [
+       418295.22,
+       5520546.5
+      ],
+      [
+       418286.43,
+       5520499.56
+      ],
+      [
+       418294.59,
+       5520452.16
+      ],
+      [
+       418336.77,
+       5520428.62
+      ],
+      [
+       418382.95,
+       5520428.4
+      ],
+      [
+       418417.44,
+       5520457.7
+      ],
+      [
+       418435.92,
+       5520499.56
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0048",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Extensivierung von Grünland Bad Kreuznach",
+    "aktenzeichen": "UNB-133-286/2017",
+    "gemeinde": "Bad Kreuznach",
+    "gemeinde_schluessel": "07133006",
+    "gemarkung": "Bad-Nord",
+    "gemarkung_schluessel": "073750",
+    "flurstuecke": "Flur 23, Nr. 224/3",
+    "status": "IN PFLEGE",
+    "flaeche_ha": "5,3733",
+    "oekopunkte_gesamt": 208775,
+    "oekopunkte_verfuegbar": 119671,
+    "massnahme": "Umwandlung von Acker in Magerrasen",
+    "zielzustand": "Auwald",
+    "eintragungsstelle": "Kreisverwaltung Mainz-Bingen - Untere Naturschutzbehörde",
+    "datum_eintragung": "2024-09-18"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1049",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       392380.03,
+       5590666.72
+      ],
+      [
+       392358.88,
+       5590709.63
+      ],
+      [
+       392325.47,
+       5590745.67
+      ],
+      [
+       392274.8,
+       5590743.7
+      ],
+      [
+       392227.15,
+       5590719.52
+      ],
+      [
+       392221.07,
+       5590666.72
+      ],
+      [
+       392225.77,
+       5590612.93
+      ],
+      [
+       392271.61,
+       5590579.91
+      ],
+      [
+       392325.98,
+       5590586.19
+      ],
+      [
+       392373.58,
+       5590613.13
+      ],
+      [
+       392380.03,
+       5590666.72
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0049",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Pflanzung einer Feldhecke Neuwied",
+    "aktenzeichen": "UNB-138-722/2016",
+    "gemeinde": "Neuwied",
+    "gemeinde_schluessel": "07138045",
+    "gemarkung": "Neuwied-Ost",
+    "gemarkung_schluessel": "071666",
+    "flurstuecke": "Flur 21, Nr. 284/1",
+    "status": "Umsetzung abgeschlossen",
+    "flaeche_ha": 2.0955,
+    "oekopunkte_gesamt": 40000,
+    "oekopunkte_verfuegbar": -500,
+    "massnahme": "Renaturierung eines Bachabschnitts",
+    "zielzustand": "Magerrasen",
+    "eintragungsstelle": "Stiftung Natur und Umwelt Rheinland-Pfalz",
+    "datum_eintragung": "11.06.2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1050",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       450577.58,
+       5500105.92
+      ],
+      [
+       450568.49,
+       5500156.14
+      ],
+      [
+       450526.55,
+       5500189.56
+      ],
+      [
+       450473.55,
+       5500185.41
+      ],
+      [
+       450432.4,
+       5500154.59
+      ],
+      [
+       450409.98,
+       5500105.92
+      ],
+      [
+       450438.04,
+       5500061.36
+      ],
+      [
+       450473.5,
+       5500026.26
+      ],
+      [
+       450524.43,
+       5500028.81
+      ],
+      [
+       450560.26,
+       5500061.69
+      ],
+      [
+       450577.58,
+       5500105.92
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0050",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Renaturierung eines Bachabschnitts Worms",
+    "aktenzeichen": "UNB-319-449/2018",
+    "gemeinde": "Worms",
+    "gemeinde_schluessel": "07319000",
+    "gemarkung": "Worms-West",
+    "gemarkung_schluessel": "076122",
+    "flurstuecke": "Flur 14, Nr. 6/7",
+    "status": "geplant",
+    "flaeche_ha": 1.9917,
+    "oekopunkte_gesamt": 10000,
+    "oekopunkte_verfuegbar": 25000,
+    "massnahme": "Extensivierung von Grünland",
+    "zielzustand": "Extensivgrünland",
+    "eintragungsstelle": "SGD Süd - Obere Naturschutzbehörde",
+    "datum_eintragung": "2018-01-14"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1051",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       434719.18,
+       5449389.91
+      ],
+      [
+       434707.5,
+       5449447.25
+      ],
+      [
+       434652.89,
+       5449464.74
+      ],
+      [
+       434601.44,
+       5449473.45
+      ],
+      [
+       434550.51,
+       5449446.63
+      ],
+      [
+       434548.29,
+       5449389.91
+      ],
+      [
+       434556.69,
+       5449337.68
+      ],
+      [
+       434600.21,
+       5449302.61
+      ],
+      [
+       434656.9,
+       5449302.76
+      ],
+      [
+       434700.9,
+       5449337.37
+      ],
+      [
+       434719.18,
+       5449389.91
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0051",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Extensivierung von Grünland Landau in der Pfalz",
+    "aktenzeichen": "UNB-313-982/2015",
+    "gemeinde": "Unbekannt",
+    "gemeinde_schluessel": "07999999",
+    "gemarkung": "Landau-Süd",
+    "gemarkung_schluessel": "071849",
+    "flurstuecke": "Flur 20, Nr. 25/8",
+    "status": "geplant",
+    "flaeche_ha": "2,3406",
+    "oekopunkte_gesamt": 274144,
+    "oekopunkte_verfuegbar": 57818,
+    "massnahme": "Pflanzung einer Feldhecke",
+    "zielzustand": "Streuobstwiese",
+    "eintragungsstelle": "SGD Süd - Obere Naturschutzbehörde",
+    "datum_eintragung": "2022-10-21"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1052",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       366923.4,
+       5599817.36
+      ],
+      [
+       366915.92,
+       5599842.82
+      ],
+      [
+       366893.64,
+       5599856.65
+      ],
+      [
+       366867.16,
+       5599859.59
+      ],
+      [
+       366842.96,
+       5599844.91
+      ],
+      [
+       366836.71,
+       5599817.36
+      ],
+      [
+       366851.77,
+       5599796.21
+      ],
+      [
+       366868.33,
+       5599778.74
+      ],
+      [
+       366894.15,
+       5599776.53
+      ],
+      [
+       366910.48,
+       5599795.85
+      ],
+      [
+       366923.4,
+       5599817.36
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0052",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Extensivierung von Grünland Bad Neuenahr-Ahrweiler",
+    "aktenzeichen": "UNB-131-863/2024",
+    "gemeinde": "Bad Neuenahr-Ahrweiler",
+    "gemeinde_schluessel": "07131007",
+    "gemarkung": "Bad-Mitte",
+    "gemarkung_schluessel": "077654",
+    "flurstuecke": "Flur 9, Nr. 315/1",
+    "status": "Umgesetzt",
+    "flaeche_ha": "0,5154",
+    "oekopunkte_gesamt": 58082,
+    "oekopunkte_verfuegbar": 43272,
+    "massnahme": "Entwicklung eines Auwalds",
+    "zielzustand": "Feldgehölz",
+    "eintragungsstelle": "Kreisverwaltung Mainz-Bingen - Untere Naturschutzbehörde",
+    "datum_eintragung": "2021/13/45"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "rp_oekokonto.1053",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       380749.35,
+       5506276.71
+      ],
+      [
+       380736.15,
+       5506363.41
+      ],
+      [
+       380651.45,
+       5506383.32
+      ],
+      [
+       380580.38,
+       5506388.84
+      ],
+      [
+       380513.44,
+       5506351.81
+      ],
+      [
+       380469.37,
+       5506276.71
+      ],
+      [
+       380517.19,
+       5506204.33
+      ],
+      [
+       380578.29,
+       5506158.15
+      ],
+      [
+       380652.13,
+       5506168.01
+      ],
+      [
+       380717.1,
+       5506203.84
+      ],
+      [
+       380749.35,
+       5506276.71
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "objekt_id": "RP-OEK-2026-0053",
+    "objektart": "Ökokonto",
+    "bezeichnung": "Renaturierung eines Bachabschnitts Idar-Oberstein",
+    "aktenzeichen": "UNB-134-262/2022",
+    "gemeinde": "Idar-Oberstein",
+    "gemeinde_schluessel": null,
+    "gemarkung": null,
+    "gemarkung_schluessel": null,
+    "flurstuecke": "Flur 8, Nr. 174/6",
+    "status": " in Umsetzung ",
+    "flaeche_ha": 4.7481,
+    "oekopunkte_gesamt": 547261,
+    "oekopunkte_verfuegbar": 214970,
+    "massnahme": "Renaturierung eines Bachabschnitts",
+    "zielzustand": "Feldgehölz",
+    "eintragungsstelle": "Kreisverwaltung Mainz-Bingen - Untere Naturschutzbehörde",
+    "datum_eintragung": "24.03.2023"
+   }
+  }
+ ]
+}

@@ -1,0 +1,294 @@
+{
+ "RP-OEK-2026-0001": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0002": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0003": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0004": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0005": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0006": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0007": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0008": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0009": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": [],
+  "note": "E07 two identical copies -> loaded once, duplicate_in_source warning"
+ },
+ "RP-OEK-2026-0010": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0011": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0012": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0013": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0014": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0015": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0016": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0017": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0018": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0019": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0020": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0021": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0022": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0023": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0024": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0025": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0026": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0027": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0028": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": [
+   "geometry_repaired"
+  ]
+ },
+ "RP-OEK-2026-0029": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ },
+ "RP-OEK-2026-0030": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": [
+   "z_dropped"
+  ]
+ },
+ "RP-OEK-2026-0031": {
+  "outcome": "rejected",
+  "code": "missing_geometry",
+  "flags": []
+ },
+ "RP-OEK-2026-0032": {
+  "outcome": "rejected",
+  "code": "unsupported_geometry_type",
+  "flags": []
+ },
+ "RP-OEK-2026-0033": {
+  "outcome": "rejected",
+  "code": "unrepairable_geometry",
+  "flags": []
+ },
+ "RP-OEK-2026-0034": {
+  "outcome": "rejected",
+  "code": "degenerate_geometry",
+  "flags": []
+ },
+ "RP-OEK-2026-0035": {
+  "outcome": "rejected",
+  "code": "geometry_unparseable",
+  "flags": []
+ },
+ "rp_oekokonto.1036": {
+  "outcome": "rejected",
+  "code": "missing_site_id",
+  "flags": []
+ },
+ "RP-OEK-2026-0037": {
+  "outcome": "rejected",
+  "code": "conflicting_duplicate",
+  "flags": []
+ },
+ "RP-OEK-2026-0038": {
+  "outcome": "rejected",
+  "code": "outside_state",
+  "flags": []
+ },
+ "RP-OEK-2026-0039": {
+  "outcome": "rejected",
+  "code": "geometry_outside_state",
+  "flags": []
+ },
+ "RP-OEK-2026-0040": {
+  "outcome": "rejected",
+  "code": "out_of_domain",
+  "flags": []
+ },
+ "RP-OEK-2026-0041": {
+  "outcome": "rejected",
+  "code": "unknown_object_type",
+  "flags": []
+ },
+ "RP-OEK-2026-0042": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": [
+   "unmapped_status"
+  ]
+ },
+ "RP-OEK-2026-0043": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": [
+   "unmapped_status"
+  ]
+ },
+ "RP-OEK-2026-0044": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": [
+   "ambiguous_number"
+  ]
+ },
+ "RP-OEK-2026-0045": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": [
+   "name_encoding_repaired"
+  ]
+ },
+ "RP-OEK-2026-0046": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": [
+   "municipality_name_mismatch"
+  ]
+ },
+ "RP-OEK-2026-0047": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": [
+   "municipality_key_zero_padded"
+  ]
+ },
+ "RP-OEK-2026-0048": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": [
+   "area_mismatch"
+  ]
+ },
+ "RP-OEK-2026-0049": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": [
+   "invalid_eco_credits"
+  ]
+ },
+ "RP-OEK-2026-0050": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": [
+   "eco_credits_inconsistent"
+  ]
+ },
+ "RP-OEK-2026-0051": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": [
+   "municipality_key_unknown"
+  ]
+ },
+ "RP-OEK-2026-0052": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": [
+   "invalid_date"
+  ]
+ },
+ "RP-OEK-2026-0053": {
+  "outcome": "accepted",
+  "code": null,
+  "flags": []
+ }
+}

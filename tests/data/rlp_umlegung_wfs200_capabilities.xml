@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Real response recorded 2026-10-28 from https://www.geoportal.rlp.de/registry/wfs/588 (LVermGeo RLP, dl-de/by-2-0). Used only to test the capabilities parser against a genuine RLP MapServer document. -->
+<wfs:WFS_Capabilities xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:vermkv="https://www.vermkv.rlp.de" xmlns="http://www.opengis.net/wfs/2.0" version="2.0.0" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd">
+  <ows:ServiceIdentification>
+    <ows:Title>Umlegung Rheinland-Pfalz</ows:Title>
+    <ows:Abstract>Der Geodienst bietet eine Übersicht der Umlegungsverfahren der gemäß § 46 BauGB mit der Umlegung betrauten Stellen der Vermessungs- und Katasterverwaltung Rheinland-Pfalz. Beschreibende Informationen zu den Umlegungsverfahren sind abfragbar. Vereinfachte Umlegungsverfahren und Verfahren der Umlegungsausschüsse der Städte Mainz, Trier, Koblenz, Kaiserslautern, Ludwigshafen am Rhein und Worms werden nicht dargestellt. Datengrundlage ist das Amtliche Liegenschaftskataster-Informationssystem (ALKIS) und das Automatisierte Geschäftsbuch der Vermessungs- und Katasterverwaltung Rheinland-Pfalz. Der Dienst ist monatsaktuell. Die geometrische Qualität ist abhängig von der Entstehung der zugrundeliegenden Daten des Liegenschaftskatasters.</ows:Abstract>
+    <ows:Keywords>
+      <ows:Keyword>Umlegungsausschuss</ows:Keyword>
+      <ows:Keyword>Umlegung</ows:Keyword>
+      <ows:Keyword>Umlegungsverfahren</ows:Keyword>
+      <ows:Keyword>Umlegungsgebiet</ows:Keyword>
+      <ows:Keyword>Baulandumlegung</ows:Keyword>
+      <ows:Keyword>BauG</ows:Keyword>
+      <ows:Keyword>Bauplatzaufteilung</ows:Keyword>
+      <ows:Keyword>BU</ows:Keyword>
+    </ows:Keywords>
+    <ows:ServiceType codeSpace="OGC">WFS</ows:ServiceType>
+    <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
+    <ows:Fees>geldleistungsfrei; Datenlizenz Deutschland – Namensnennung – Version 2.0; URL: https://www.govdata.de/dl-de/by-2-0 Die Namensnennung der Vermessungs- und Katasterverwaltung Rheinland-Pfalz als Rechteinhaberin hat in folgender Weise zu erfolgen: ©GeoBasis-DE / LVermGeoRP (Jahr des Datenbezugs), dl-de/by-2-0, http://www.lvermgeo.rlp.de [Daten bearbeitet]; Es gelten folgende Regelungen zu Gewährleistung und Haftung; URL: https://lvermgeo.rlp.de/geodaten-geoshop/open-data/gewaehrleistung-haftung</ows:Fees>
+    <ows:AccessConstraints>NONE</ows:AccessConstraints>
+  </ows:ServiceIdentification>
+  <ows:ServiceProvider>
+    <ows:ProviderName>Landesamt für Vermessung und Geobasisinformation (LVermGeo) Rheinland-Pfalz</ows:ProviderName>
+    <ows:ProviderSite xlink:type="simple" xlink:href=""/>
+    <!--WARNING: Optional metadata "ows_service_onlineresource" was missing for ows:ProviderSite/@xlink:href-->
+    <!-- ows:ServiceContact removed (personal data) -->
+  </ows:ServiceProvider>
+  <ows:OperationsMetadata>
+    <ows:Operation name="GetCapabilities">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:type="simple" xlink:href="https://geo5.service24.rlp.de/wfs/umlegung_rp.fcgi?"/>
+          <ows:Post xlink:type="simple" xlink:href="https://geo5.service24.rlp.de/wfs/umlegung_rp.fcgi?"/>
+        </ows:HTTP>
+      </ows:DCP>
+      <ows:Parameter name="AcceptVersions">
+        <ows:AllowedValues>
+          <ows:Value>2.0.0</ows:Value>
+          <ows:Value>1.1.0</ows:Value>
+          <ows:Value>1.0.0</ows:Value>
+        </ows:AllowedValues>
+      </ows:Parameter>
+      <ows:Parameter name="AcceptFormats">
+        <ows:AllowedValues>
+          <ows:Value>text/xml</ows:Value>
+        </ows:AllowedValues>
+      </ows:Parameter>
+      <ows:Parameter name="Sections">
+        <ows:AllowedValues>
+          <ows:Value>ServiceIdentification</ows:Value>
+          <ows:Value>ServiceProvider</ows:Value>
+          <ows:Value>OperationsMetadata</ows:Value>
+          <ows:Value>FeatureTypeList</ows:Value>
+          <ows:Value>Filter_Capabilities</ows:Value>
+        </ows:AllowedValues>
+      </ows:Parameter>
+    </ows:Operation>
+    <ows:Operation name="DescribeFeatureType">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:type="simple" xlink:href="https://geo5.service24.rlp.de/wfs/umlegung_rp.fcgi?"/>
+          <ows:Post xlink:type="simple" xlink:href="https://geo5.service24.rlp.de/wfs/umlegung_rp.fcgi?"/>
+        </ows:HTTP>
+      </ows:DCP>
+      <ows:Parameter name="outputFormat">
+        <ows:AllowedValues>
+          <ows:Value>application/gml+xml; version=3.2</ows:Value>
+          <ows:Value>text/xml; subtype=gml/3.2.1</ows:Value>
+          <ows:Value>text/xml; subtype=gml/3.1.1</ows:Value>
+          <ows:Value>text/xml; subtype=gml/2.1.2</ows:Value>
+        </ows:AllowedValues>
+      </ows:Parameter>
+    </ows:Operation>
+    <ows:Operation name="GetFeature">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:type="simple" xlink:href="https://geo5.service24.rlp.de/wfs/umlegung_rp.fcgi?"/>
+          <ows:Post xlink:type="simple" xlink:href="https://geo5.service24.rlp.de/wfs/umlegung_rp.fcgi?"/>
+        </ows:HTTP>
+      </ows:DCP>
+      <ows:Parameter name="outputFormat">
+        <ows:AllowedValues>
+          <ows:Value>application/gml+xml; version=3.2</ows:Value>
+          <ows:Value>text/xml; subtype=gml/3.2.1</ows:Value>
+          <ows:Value>text/xml; subtype=gml/3.1.1</ows:Value>
+          <ows:Value>text/xml; subtype=gml/2.1.2</ows:Value>
+          <ows:Value>application/zip</ows:Value>
+          <ows:Value>text/csv</ows:Value>
+          <ows:Value>application/json; subtype=geojson</ows:Value>
+        </ows:AllowedValues>
+      </ows:Parameter>
+    </ows:Operation>
+    <ows:Operation name="GetPropertyValue">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:type="simple" xlink:href="https://geo5.service24.rlp.de/wfs/umlegung_rp.fcgi?"/>
+          <ows:Post xlink:type="simple" xlink:href="https://geo5.service24.rlp.de/wfs/umlegung_rp.fcgi?"/>
+        </ows:HTTP>
+      </ows:DCP>
+      <ows:Parameter name="outputFormat">
+        <ows:AllowedValues>
+          <ows:Value>application/gml+xml; version=3.2</ows:Value>
+          <ows:Value>text/xml; subtype=gml/3.2.1</ows:Value>
+          <ows:Value>text/xml; subtype=gml/3.1.1</ows:Value>
+          <ows:Value>text/xml; subtype=gml/2.1.2</ows:Value>
+        </ows:AllowedValues>
+      </ows:Parameter>
+    </ows:Operation>
+    <ows:Operation name="ListStoredQueries">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:type="simple" xlink:href="https://geo5.service24.rlp.de/wfs/umlegung_rp.fcgi?"/>
+          <ows:Post xlink:type="simple" xlink:href="https://geo5.service24.rlp.de/wfs/umlegung_rp.fcgi?"/>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+    <ows:Operation name="DescribeStoredQueries">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:type="simple" xlink:href="https://geo5.service24.rlp.de/wfs/umlegung_rp.fcgi?"/>
+          <ows:Post xlink:type="simple" xlink:href="https://geo5.service24.rlp.de/wfs/umlegung_rp.fcgi?"/>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+    <ows:Parameter name="version">
+      <ows:AllowedValues>
+        <ows:Value>2.0.0</ows:Value>
+        <ows:Value>1.1.0</ows:Value>
+        <ows:Value>1.0.0</ows:Value>
+      </ows:AllowedValues>
+    </ows:Parameter>
+    <ows:Constraint name="ImplementsBasicWFS">
+      <ows:NoValues/>
+      <ows:DefaultValue>TRUE</ows:DefaultValue>
+    </ows:Constraint>
+    <ows:Constraint name="ImplementsTransactionalWFS">
+      <ows:NoValues/>
+      <ows:DefaultValue>FALSE</ows:DefaultValue>
+    </ows:Constraint>
+    <ows:Constraint name="ImplementsLockingWFS">
+      <ows:NoValues/>
+      <ows:DefaultValue>FALSE</ows:DefaultValue>
+    </ows:Constraint>
+    <ows:Constraint name="KVPEncoding">
+      <ows:NoValues/>
+      <ows:DefaultValue>TRUE</ows:DefaultValue>
+    </ows:Constraint>
+    <ows:Constraint name="XMLEncoding">
+      <ows:NoValues/>
+      <ows:DefaultValue>TRUE</ows:DefaultValue>
+    </ows:Constraint>
+    <ows:Constraint name="SOAPEncoding">
+      <ows:NoValues/>
+      <ows:DefaultValue>FALSE</ows:DefaultValue>
+    </ows:Constraint>
+    <ows:Constraint name="ImplementsInheritance">
+      <ows:NoValues/>
+      <ows:DefaultValue>FALSE</ows:DefaultValue>
+    </ows:Constraint>
+    <ows:Constraint name="ImplementsRemoteResolve">
+      <ows:NoValues/>
+      <ows:DefaultValue>FALSE</ows:DefaultValue>
+    </ows:Constraint>
+    <ows:Constraint name="ImplementsResultPaging">
+      <ows:NoValues/>
+      <ows:DefaultValue>TRUE</ows:DefaultValue>
+    </ows:Constraint>
+    <ows:Constraint name="ImplementsStandardJoins">
+      <ows:NoValues/>
+      <ows:DefaultValue>FALSE</ows:DefaultValue>
+    </ows:Constraint>
+    <ows:Constraint name="ImplementsSpatialJoins">
+      <ows:NoValues/>
+      <ows:DefaultValue>FALSE</ows:DefaultValue>
+    </ows:Constraint>
+    <ows:Constraint name="ImplementsTemporalJoins">
+      <ows:NoValues/>
+      <ows:DefaultValue>FALSE</ows:DefaultValue>
+    </ows:Constraint>
+    <ows:Constraint name="ImplementsFeatureVersioning">
+      <ows:NoValues/>
+      <ows:DefaultValue>FALSE</ows:DefaultValue>
+    </ows:Constraint>
+    <ows:Constraint name="ManageStoredQueries">
+      <ows:NoValues/>
+      <ows:DefaultValue>FALSE</ows:DefaultValue>
+    </ows:Constraint>
+    <ows:Constraint name="PagingIsTransactionSafe">
+      <ows:NoValues/>
+      <ows:DefaultValue>FALSE</ows:DefaultValue>
+    </ows:Constraint>
+    <ows:Constraint name="QueryExpressions">
+      <ows:AllowedValues>
+        <ows:Value>wfs:Query</ows:Value>
+        <ows:Value>wfs:StoredQuery</ows:Value>
+      </ows:AllowedValues>
+    </ows:Constraint>
+  </ows:OperationsMetadata>
+  <FeatureTypeList>
+    <FeatureType>
+      <Name>vermkv:umlegung_rlp</Name>
+      <Title>Umlegung</Title>
+      <ows:Keywords>
+        <ows:Keyword>Umlegungsausschuss</ows:Keyword>
+        <ows:Keyword>Umlegung</ows:Keyword>
+        <ows:Keyword>Umlegungsverfahren</ows:Keyword>
+        <ows:Keyword>Umlegungsgebiet</ows:Keyword>
+        <ows:Keyword>Baulandumlegung</ows:Keyword>
+        <ows:Keyword>BauG</ows:Keyword>
+        <ows:Keyword>Bauplatzaufteilung</ows:Keyword>
+        <ows:Keyword>BU</ows:Keyword>
+      </ows:Keywords>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::25832</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3857</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4326</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::25831</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::25833</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::31466</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::31467</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::31468</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::31469</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::9935832</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5651</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5652</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5653</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5649</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4647</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::5650</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3034</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3035</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3043</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3044</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::3045</OtherCRS>
+      <OutputFormats>
+        <Format>application/gml+xml; version=3.2</Format>
+        <Format>text/xml; subtype=gml/3.2.1</Format>
+        <Format>text/xml; subtype=gml/3.1.1</Format>
+        <Format>text/xml; subtype=gml/2.1.2</Format>
+        <Format>application/zip</Format>
+        <Format>text/csv</Format>
+        <Format>application/json; subtype=geojson</Format>
+      </OutputFormats>
+      <ows:WGS84BoundingBox dimensions="2">
+        <ows:LowerCorner>5.941182 48.850687</ows:LowerCorner>
+        <ows:UpperCorner>8.522561 50.955549</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <MetadataURL xlink:href="https://geo5.service24.rlp.de/wfs/umlegung_rp.fcgi?request=GetMetadata&amp;layer=umlegung_rlp"/>
+    </FeatureType>
+  </FeatureTypeList>
+  <fes:Filter_Capabilities>
+    <fes:Conformance>
+      <fes:Constraint name="ImplementsQuery">
+        <ows:NoValues/>
+        <ows:DefaultValue>TRUE</ows:DefaultValue>
+      </fes:Constraint>
+      <fes:Constraint name="ImplementsAdHocQuery">
+        <ows:NoValues/>
+        <ows:DefaultValue>TRUE</ows:DefaultValue>
+      </fes:Constraint>
+      <fes:Constraint name="ImplementsFunctions">
+        <ows:NoValues/>
+        <ows:DefaultValue>FALSE</ows:DefaultValue>
+      </fes:Constraint>
+      <fes:Constraint name="ImplementsResourceId">
+        <ows:NoValues/>
+        <ows:DefaultValue>TRUE</ows:DefaultValue>
+      </fes:Constraint>
+      <fes:Constraint name="ImplementsMinStandardFilter">
+        <ows:NoValues/>
+        <ows:DefaultValue>TRUE</ows:DefaultValue>
+      </fes:Constraint>
+      <fes:Constraint name="ImplementsStandardFilter">
+        <ows:NoValues/>
+        <ows:DefaultValue>TRUE</ows:DefaultValue>
+      </fes:Constraint>
+      <fes:Constraint name="ImplementsMinSpatialFilter">
+        <ows:NoValues/>
+        <ows:DefaultValue>TRUE</ows:DefaultValue>
+      </fes:Constraint>
+      <fes:Constraint name="ImplementsSpatialFilter">
+        <ows:NoValues/>
+        <ows:DefaultValue>FALSE</ows:DefaultValue>
+      </fes:Constraint>
+      <fes:Constraint name="ImplementsMinTemporalFilter">
+        <ows:NoValues/>
+        <ows:DefaultValue>TRUE</ows:DefaultValue>
+      </fes:Constraint>
+      <fes:Constraint name="ImplementsTemporalFilter">
+        <ows:NoValues/>
+        <ows:DefaultValue>FALSE</ows:DefaultValue>
+      </fes:Constraint>
+      <fes:Constraint name="ImplementsVersionNav">
+        <ows:NoValues/>
+        <ows:DefaultValue>FALSE</ows:DefaultValue>
+      </fes:Constraint>
+      <fes:Constraint name="ImplementsSorting">
+        <ows:NoValues/>
+        <ows:DefaultValue>TRUE</ows:DefaultValue>
+      </fes:Constraint>
+      <fes:Constraint name="ImplementsExtendedOperators">
+        <ows:NoValues/>
+        <ows:DefaultValue>FALSE</ows:DefaultValue>
+      </fes:Constraint>
+      <fes:Constraint name="ImplementsMinimumXPath">
+        <ows:NoValues/>
+        <ows:DefaultValue>TRUE</ows:DefaultValue>
+      </fes:Constraint>
+      <fes:Constraint name="ImplementsSchemaElementFunc">
+        <ows:NoValues/>
+        <ows:DefaultValue>FALSE</ows:DefaultValue>
+      </fes:Constraint>
+    </fes:Conformance>
+    <fes:Id_Capabilities>
+      <fes:ResourceIdentifier name="fes:ResourceId"/>
+    </fes:Id_Capabilities>
+    <fes:Scalar_Capabilities>
+      <fes:LogicalOperators/>
+      <fes:ComparisonOperators>
+        <fes:ComparisonOperator name="PropertyIsEqualTo"/>
+        <fes:ComparisonOperator name="PropertyIsNotEqualTo"/>
+        <fes:ComparisonOperator name="PropertyIsLessThan"/>
+        <fes:ComparisonOperator name="PropertyIsGreaterThan"/>
+        <fes:ComparisonOperator name="PropertyIsLessThanOrEqualTo"/>
+        <fes:ComparisonOperator name="PropertyIsGreaterThanOrEqualTo"/>
+        <fes:ComparisonOperator name="PropertyIsLike"/>
+        <fes:ComparisonOperator name="PropertyIsBetween"/>
+      </fes:ComparisonOperators>
+    </fes:Scalar_Capabilities>
+    <fes:Spatial_Capabilities>
+      <fes:GeometryOperands>
+        <fes:GeometryOperand name="gml:Point"/>
+        <fes:GeometryOperand name="gml:MultiPoint"/>
+        <fes:GeometryOperand name="gml:LineString"/>
+        <fes:GeometryOperand name="gml:MultiLineString"/>
+        <fes:GeometryOperand name="gml:Curve"/>
+        <fes:GeometryOperand name="gml:MultiCurve"/>
+        <fes:GeometryOperand name="gml:Polygon"/>
+        <fes:GeometryOperand name="gml:MultiPolygon"/>
+        <fes:GeometryOperand name="gml:Surface"/>
+        <fes:GeometryOperand name="gml:MultiSurface"/>
+        <fes:GeometryOperand name="gml:Box"/>
+        <fes:GeometryOperand name="gml:Envelope"/>
+      </fes:GeometryOperands>
+      <fes:SpatialOperators>
+        <fes:SpatialOperator name="Equals"/>
+        <fes:SpatialOperator name="Disjoint"/>
+        <fes:SpatialOperator name="Touches"/>
+        <fes:SpatialOperator name="Within"/>
+        <fes:SpatialOperator name="Overlaps"/>
+        <fes:SpatialOperator name="Crosses"/>
+        <fes:SpatialOperator name="Intersects"/>
+        <fes:SpatialOperator name="Contains"/>
+        <fes:SpatialOperator name="DWithin"/>
+        <fes:SpatialOperator name="Beyond"/>
+        <fes:SpatialOperator name="BBOX"/>
+      </fes:SpatialOperators>
+    </fes:Spatial_Capabilities>
+    <fes:Temporal_Capabilities>
+      <fes:TemporalOperands>
+        <fes:TemporalOperand name="gml:TimePeriod"/>
+        <fes:TemporalOperand name="gml:TimeInstant"/>
+      </fes:TemporalOperands>
+      <fes:TemporalOperators>
+        <fes:TemporalOperator name="During"/>
+      </fes:TemporalOperators>
+    </fes:Temporal_Capabilities>
+  </fes:Filter_Capabilities>
+</wfs:WFS_Capabilities>

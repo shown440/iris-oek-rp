@@ -1,0 +1,64 @@
+# Source -> target attribute mapping for the LUWG compensation layer.
+#
+# Source field names are checked against DescribeFeatureType at runtime.
+# A mapped field the live schema does not advertise is reported and loaded
+# as NULL; it is never derived from other attributes.
+#
+# The source field names below follow the attributes required by the
+# Landesverordnung über das Kompensationsverzeichnis (LKompVzVO) § 3
+# (Objektkennung, Objektbezeichnung, Lage/Abgrenzung, Aktenzeichen,
+# Fläche in Hektar, ...). They are a HYPOTHESIS until the live
+# capabilities can be inspected - see README "Assumptions".
+
+[source]
+layer = "rp_oekokonto"
+# Stable business identifier (LKompVzVO "Objektkennung").
+id_field = "objekt_id"
+# Property used for SORTBY so WFS paging is deterministic.
+sort_field = "objekt_id"
+# Never fall back to gml:id / GeoJSON id unless explicitly allowed:
+# server-generated feature ids are not guaranteed to be stable.
+allow_feature_id_fallback = false
+
+# target column = source property
+[fields]
+object_type = "objektart"
+site_name = "bezeichnung"
+file_reference = "aktenzeichen"
+municipality_name = "gemeinde"
+municipality_key = "gemeinde_schluessel"
+cadastral_district_name = "gemarkung"
+cadastral_district_key = "gemarkung_schluessel"
+status = "status"
+area_ha = "flaeche_ha"
+eco_credits_total = "oekopunkte_gesamt"
+eco_credits_available = "oekopunkte_verfuegbar"
+registering_authority = "eintragungsstelle"
+registered_on = "datum_eintragung"
+
+# LKompVzVO § 2 object types. Keys are matched case-insensitively after
+# umlaut transliteration (ä->ae, ö->oe, ü->ue, ß->ss).
+[object_types]
+kompensationsflaeche = "compensation_area"
+oekokonto = "eco_account"
+ersatzzahlungsmassnahme = "replacement_payment_measure"
+
+# Interventions (Eingriffsverfahren) are registered in the same register
+# but are NOT compensation sites -> rejected as out_of_domain.
+[object_types_excluded]
+values = ["eingriffsverfahren"]
+
+# Source status -> controlled vocabulary. Values not listed are kept in
+# compensation_status_source, loaded with compensation_status = NULL and
+# flagged "unmapped_status". "abgeschlossen" is intentionally NOT mapped:
+# it may mean "implementation finished" or "maintenance period ended" and
+# needs confirmation from the data owner.
+[status]
+geplant = "planned"
+"in planung" = "planned"
+"in umsetzung" = "in_progress"
+umgesetzt = "implemented"
+"umsetzung abgeschlossen" = "implemented"
+"in pflege" = "maintenance"
+unterhaltung = "maintenance"
+aufgehoben = "revoked"

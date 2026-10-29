@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SYNTHETIC FIXTURE - not a recording of the LUWG service.
+
+  The endpoint named in the brief (geodaten-wasser.rlp.de) does not resolve in
+  public DNS (verified 2026-10-28), so this document was written by hand. Its
+  structure follows the real WFS 2.0.0 capabilities of a Rhineland-Palatinate
+  MapServer service (geoportal.rlp.de registry/wfs/588), including
+  ImplementsResultPaging=TRUE and PagingIsTransactionSafe=FALSE. CountDefault
+  is deliberately small (10) so the fixture exercises multi-page harvesting.
+-->
+<wfs:WFS_Capabilities xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:luwg="https://geodaten-wasser.rlp.de/luwg" xmlns="http://www.opengis.net/wfs/2.0" version="2.0.0">
+  <ows:ServiceIdentification>
+    <ows:Title>Kompensationsverzeichnis Rheinland-Pfalz (LUWG) - SYNTHETIC FIXTURE</ows:Title>
+    <ows:Abstract>Registrierte Kompensationsflächen und Ökokonten nach LKompVzVO. Synthetic test data for IRIS-OEK-RP.</ows:Abstract>
+    <ows:ServiceType codeSpace="OGC">WFS</ows:ServiceType>
+    <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
+    <ows:Fees>geldleistungsfrei; Datenlizenz Deutschland - Namensnennung - Version 2.0 (assumed for fixture)</ows:Fees>
+    <ows:AccessConstraints>NONE</ows:AccessConstraints>
+  </ows:ServiceIdentification>
+  <ows:ServiceProvider>
+    <ows:ProviderName>Landesamt für Umwelt, Wasserwirtschaft und Gewerbeaufsicht Rheinland-Pfalz (LUWG)</ows:ProviderName>
+  </ows:ServiceProvider>
+  <ows:OperationsMetadata>
+    <ows:Operation name="GetCapabilities">
+      <ows:DCP><ows:HTTP><ows:Get xlink:type="simple" xlink:href="fixture://luwg/wfs/kompensation"/></ows:HTTP></ows:DCP>
+    </ows:Operation>
+    <ows:Operation name="DescribeFeatureType">
+      <ows:DCP><ows:HTTP><ows:Get xlink:type="simple" xlink:href="fixture://luwg/wfs/kompensation"/></ows:HTTP></ows:DCP>
+      <ows:Parameter name="outputFormat">
+        <ows:AllowedValues>
+          <ows:Value>application/gml+xml; version=3.2</ows:Value>
+        </ows:AllowedValues>
+      </ows:Parameter>
+    </ows:Operation>
+    <ows:Operation name="GetFeature">
+      <ows:DCP><ows:HTTP><ows:Get xlink:type="simple" xlink:href="fixture://luwg/wfs/kompensation"/></ows:HTTP></ows:DCP>
+      <ows:Parameter name="outputFormat">
+        <ows:AllowedValues>
+          <ows:Value>application/gml+xml; version=3.2</ows:Value>
+          <ows:Value>text/xml; subtype=gml/3.2.1</ows:Value>
+          <ows:Value>application/json; subtype=geojson</ows:Value>
+        </ows:AllowedValues>
+      </ows:Parameter>
+    </ows:Operation>
+    <ows:Constraint name="ImplementsBasicWFS"><ows:NoValues/><ows:DefaultValue>TRUE</ows:DefaultValue></ows:Constraint>
+    <ows:Constraint name="ImplementsTransactionalWFS"><ows:NoValues/><ows:DefaultValue>FALSE</ows:DefaultValue></ows:Constraint>
+    <ows:Constraint name="KVPEncoding"><ows:NoValues/><ows:DefaultValue>TRUE</ows:DefaultValue></ows:Constraint>
+    <ows:Constraint name="ImplementsResultPaging"><ows:NoValues/><ows:DefaultValue>TRUE</ows:DefaultValue></ows:Constraint>
+    <ows:Constraint name="PagingIsTransactionSafe"><ows:NoValues/><ows:DefaultValue>FALSE</ows:DefaultValue></ows:Constraint>
+    <ows:Constraint name="CountDefault"><ows:NoValues/><ows:DefaultValue>10</ows:DefaultValue></ows:Constraint>
+  </ows:OperationsMetadata>
+  <FeatureTypeList>
+    <FeatureType>
+      <Name>luwg:rp_oekokonto</Name>
+      <Title>Kompensationsflächen und Ökokonten</Title>
+      <DefaultCRS>urn:ogc:def:crs:EPSG::25832</DefaultCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4258</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::4326</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::31466</OtherCRS>
+      <OtherCRS>urn:ogc:def:crs:EPSG::31467</OtherCRS>
+      <OutputFormats>
+        <Format>application/gml+xml; version=3.2</Format>
+        <Format>text/xml; subtype=gml/3.2.1</Format>
+        <Format>application/json; subtype=geojson</Format>
+      </OutputFormats>
+      <ows:WGS84BoundingBox dimensions="2">
+        <ows:LowerCorner>6.11 48.96</ows:LowerCorner>
+        <ows:UpperCorner>8.51 50.95</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+    </FeatureType>
+  </FeatureTypeList>
+  <fes:Filter_Capabilities>
+    <fes:Conformance>
+      <fes:Constraint name="ImplementsQuery"><ows:NoValues/><ows:DefaultValue>TRUE</ows:DefaultValue></fes:Constraint>
+      <fes:Constraint name="ImplementsSorting"><ows:NoValues/><ows:DefaultValue>TRUE</ows:DefaultValue></fes:Constraint>
+      <fes:Constraint name="ImplementsSpatialFilter"><ows:NoValues/><ows:DefaultValue>TRUE</ows:DefaultValue></fes:Constraint>
+    </fes:Conformance>
+  </fes:Filter_Capabilities>
+</wfs:WFS_Capabilities>

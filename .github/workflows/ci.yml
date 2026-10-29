@@ -24,6 +24,12 @@ jobs:
           sed -i "s/change-me-migrator/ci-$(openssl rand -hex 8)/" .env
           sed -i "s/change-me-harvester/ci-$(openssl rand -hex 8)/g" .env
 
+      # The container runs as uid 10001, which does not own the checkout.
+      - name: Make bind-mounted output directories container-writable
+        run: |
+          mkdir -p data examples
+          chmod a+rwX data examples
+
       - name: Build image
         run: docker compose build
 

@@ -1,0 +1,46 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+# Least-privilege token: the workflow only reads the repository.
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    # Everything runs in the project image, so CI and a reviewer's laptop
+    # execute the identical path.
+    runs-on: ubuntu-latest
+    steps:
+      # Third-party actions pinned to commit SHAs (tags are mutable).
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Create throwaway .env (random passwords)
+        run: |
+          cp .env.example .env
+          sed -i "s/change-me-superuser/ci-$(openssl rand -hex 8)/" .env
+          sed -i "s/change-me-migrator/ci-$(openssl rand -hex 8)/" .env
+          sed -i "s/change-me-harvester/ci-$(openssl rand -hex 8)/g" .env
+
+      - name: Build image
+        run: docker compose build
+
+      - name: Lint and format check
+        run: |
+          docker compose run --rm --no-deps --entrypoint ruff harvester check .
+          docker compose run --rm --no-deps --entrypoint ruff harvester format --check .
+
+      - name: Start PostGIS
+        run: docker compose up -d --wait db
+
+      - name: Unit and integration tests
+        run: docker compose run --rm tests -q
+
+      - name: Demo (migrate, harvest twice, validate)
+        run: |
+          docker compose run --rm migrate
+          docker compose run --rm harvester harvest
+          docker compose run --rm harvester harvest
+          docker compose run --rm harvester validate

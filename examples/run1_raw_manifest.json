@@ -1,0 +1,74 @@
+[
+  {
+    "file": "capabilities.xml",
+    "url": "fixture://luwg/wfs/kompensation?SERVICE=WFS&REQUEST=GetCapabilities&ACCEPTVERSIONS=2.0.0%2C1.1.0",
+    "content_type": "application/xml",
+    "bytes": 4846,
+    "sha256": "ab5d5980f401a36c81e2efe8b2e2c4875a39f51d029bb25d3f3b025d87063822",
+    "fetched_at": "2026-10-29T04:01:40.477922+00:00"
+  },
+  {
+    "file": "describe_feature_type.xsd",
+    "url": "fixture://luwg/wfs/kompensation?SERVICE=WFS&VERSION=2.0.0&REQUEST=DescribeFeatureType&TYPENAMES=luwg%3Arp_oekokonto",
+    "content_type": "application/xml",
+    "bytes": 2645,
+    "sha256": "11fd02d570c264bf677b37835ffe5ad77c2a093683ba344a8314d803bcdeb2f6",
+    "fetched_at": "2026-10-29T04:01:40.478640+00:00"
+  },
+  {
+    "file": "hits.xml",
+    "url": "fixture://luwg/wfs/kompensation?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&TYPENAMES=luwg%3Arp_oekokonto&RESULTTYPE=hits",
+    "content_type": "application/xml",
+    "bytes": 176,
+    "sha256": "5e531bc57fa1d906ae6e17d3212ca8448ee72a7f69c97b4c23997647da9a65a0",
+    "fetched_at": "2026-10-29T04:01:40.478943+00:00"
+  },
+  {
+    "file": "page_0001.json",
+    "url": "fixture://luwg/wfs/kompensation?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&TYPENAMES=luwg%3Arp_oekokonto&SRSNAME=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A25832&SORTBY=objekt_id+ASC&STARTINDEX=0&COUNT=10",
+    "content_type": "application/json; subtype=geojson",
+    "bytes": 10343,
+    "sha256": "63b4b2ec861e2dfe0a4366df7dc07e93843f0e4fdd40a72ed08980fdd55ca242",
+    "fetched_at": "2026-10-29T04:01:40.479381+00:00"
+  },
+  {
+    "file": "page_0002.json",
+    "url": "fixture://luwg/wfs/kompensation?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&TYPENAMES=luwg%3Arp_oekokonto&SRSNAME=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A25832&SORTBY=objekt_id+ASC&STARTINDEX=10&COUNT=10",
+    "content_type": "application/json; subtype=geojson",
+    "bytes": 10336,
+    "sha256": "fac42302e190737fd263fac3cf67c340618e2ec3566a9a3d23cf0079162c76b2",
+    "fetched_at": "2026-10-29T04:01:40.485056+00:00"
+  },
+  {
+    "file": "page_0003.json",
+    "url": "fixture://luwg/wfs/kompensation?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&TYPENAMES=luwg%3Arp_oekokonto&SRSNAME=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A25832&SORTBY=objekt_id+ASC&STARTINDEX=20&COUNT=10",
+    "content_type": "application/json; subtype=geojson",
+    "bytes": 10172,
+    "sha256": "c16eb8bcd145570443b48acf25e3e6ba9a6dd75184982b5af02f81b29cc62fa2",
+    "fetched_at": "2026-10-29T04:01:40.485616+00:00"
+  },
+  {
+    "file": "page_0004.json",
+    "url": "fixture://luwg/wfs/kompensation?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&TYPENAMES=luwg%3Arp_oekokonto&SRSNAME=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A25832&SORTBY=objekt_id+ASC&STARTINDEX=30&COUNT=10",
+    "content_type": "application/json; subtype=geojson",
+    "bytes": 9144,
+    "sha256": "3f85701e86f5f0587357b388ba5a52f743089b11a376b1f5a948e3f39068ff7b",
+    "fetched_at": "2026-10-29T04:01:40.486132+00:00"
+  },
+  {
+    "file": "page_0005.json",
+    "url": "fixture://luwg/wfs/kompensation?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&TYPENAMES=luwg%3Arp_oekokonto&SRSNAME=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A25832&SORTBY=objekt_id+ASC&STARTINDEX=40&COUNT=10",
+    "content_type": "application/json; subtype=geojson",
+    "bytes": 10406,
+    "sha256": "f0a17288bd14ed4884eb7c2bc5657cdedb2aa9c888ecaa7812fbe773507fcd84",
+    "fetched_at": "2026-10-29T04:01:40.486860+00:00"
+  },
+  {
+    "file": "page_0006.json",
+    "url": "fixture://luwg/wfs/kompensation?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&TYPENAMES=luwg%3Arp_oekokonto&SRSNAME=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A25832&SORTBY=objekt_id+ASC&STARTINDEX=50&COUNT=10",
+    "content_type": "application/json; subtype=geojson",
+    "bytes": 5247,
+    "sha256": "3304d0f9f3644fa6ad1b185d275885e69ded322f21445f77844d23acf10e4530",
+    "fetched_at": "2026-10-29T04:01:40.487438+00:00"
+  }
+]

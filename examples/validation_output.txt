@@ -1,0 +1,49 @@
+
+[PASS] no_duplicate_natural_keys (0 rows)
+
+[PASS] working_geometry_valid_multipolygon_25832 (0 rows)
+
+[PASS] records_belong_to_rhineland_palatinate (0 rows)
+
+[PASS] records_belong_to_compensation_domain (0 rows)
+
+[PASS] provenance_retained (0 rows)
+
+[PASS] area_consistent_with_geometry (0 rows)
+
+[INFO] latest_run_outcome_counts (3 rows)
+    {"run_id": "6599ce52-8d1b-4d98-b81f-395bfd289934", "status": "failed", "source_mode": "live", "started_at": "2026-10-29 04:01:57.971990+00:00", "fetched": null, "accepted": null, "rejected": null, "duplicates_collapsed": null, "db_inserted": null, "db_updated": null, "db_unchanged": null}
+    {"run_id": "7f4db2c3-0afe-4081-874d-508ee0d48cf3", "status": "succeeded", "source_mode": "fixture", "started_at": "2026-10-29 04:01:43.314432+00:00", "fetched": "55", "accepted": "42", "rejected": "12", "duplicates_collapsed": "1", "db_inserted": "0", "db_updated": "0", "db_unchanged": "42"}
+    {"run_id": "fa030829-cee7-4211-976a-4c28211959db", "status": "succeeded", "source_mode": "fixture", "started_at": "2026-10-29 04:01:40.468658+00:00", "fetched": "55", "accepted": "42", "rejected": "12", "duplicates_collapsed": "1", "db_inserted": "42", "db_updated": "0", "db_unchanged": "0"}
+
+[INFO] latest_run_issues_by_code (1 rows)
+    {"severity": "rejected", "code": "run_failed", "records": 1}
+
+[INFO] spatial_area_and_credits_by_district (20 rows)
+    {"district": "Koblenz", "sites": 4, "area_ha": "19.69", "eco_credits_available": "411088.00"}
+    {"district": "Trier", "sites": 4, "area_ha": "11.08", "eco_credits_available": "583373.00"}
+    {"district": "Kaiserslautern", "sites": 3, "area_ha": "10.11", "eco_credits_available": "156895.00"}
+    {"district": "Neustadt an der Weinstraße", "sites": 4, "area_ha": "8.21", "eco_credits_available": "392491.00"}
+    {"district": "(unknown)", "sites": 2, "area_ha": "7.09", "eco_credits_available": "272788.00"}
+    {"district": "Worms", "sites": 2, "area_ha": "7.01", "eco_credits_available": "331972.00"}
+    {"district": "Neuwied", "sites": 3, "area_ha": "6.98", "eco_credits_available": "105427.00"}
+    {"district": "Ludwigshafen am Rhein", "sites": 3, "area_ha": "6.61", "eco_credits_available": "47092.00"}
+    {"district": "Bad Kreuznach", "sites": 3, "area_ha": "6.29", "eco_credits_available": "322659.00"}
+    {"district": "Mainz", "sites": 3, "area_ha": "5.57", "eco_credits_available": "513218.00"}
+    {"district": "Landau in der Pfalz", "sites": 1, "area_ha": "5.34", "eco_credits_available": "309062.00"}
+    {"district": "Speyer", "sites": 1, "area_ha": "4.73", "eco_credits_available": "374033.00"}
+    {"district": "Zweibrücken", "sites": 1, "area_ha": "4.26", "eco_credits_available": null}
+    {"district": "Bernkastel-Wittlich", "sites": 1, "area_ha": "3.49", "eco_credits_available": null}
+    {"district": "Birkenfeld", "sites": 1, "area_ha": "3.43", "eco_credits_available": "288866.00"}
+    {"district": "Ahrweiler", "sites": 2, "area_ha": "1.92", "eco_credits_available": "43272.00"}
+    {"district": "Westerwaldkreis", "sites": 1, "area_ha": "1.88", "eco_credits_available": "190938.00"}
+    {"district": "Pirmasens", "sites": 1, "area_ha": "1.25", "eco_credits_available": "98484.00"}
+    {"district": "Alzey-Worms", "sites": 1, "area_ha": "0.86", "eco_credits_available": null}
+    {"district": "Mainz-Bingen", "sites": 1, "area_ha": "0.49", "eco_credits_available": null}
+
+[INFO] spatial_sites_within_5km_of_mainz_cathedral (3 rows)
+    {"site_id": "RP-OEK-2026-0001", "site_name": "Anlage einer Streuobstwiese Mainz", "municipality_name": "Mainz", "compensation_status": "implemented", "distance_m": "2997"}
+    {"site_id": "RP-OEK-2026-0019", "site_name": "Extensivierung von Grünland Mainz", "municipality_name": "Mainz", "compensation_status": "in_progress", "distance_m": "3338"}
+    {"site_id": "RP-OEK-2026-0028", "site_name": "Extensivierung von Grünland Mainz", "municipality_name": "Mainz", "compensation_status": "implemented", "distance_m": "3497"}
+
+10/10 checks without failure

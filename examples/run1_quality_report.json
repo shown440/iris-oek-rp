@@ -1,0 +1,359 @@
+{
+  "run": {
+    "run_id": "fa030829-cee7-4211-976a-4c28211959db",
+    "status": "succeeded",
+    "source_mode": "fixture",
+    "endpoint": "fixture://luwg/wfs/kompensation",
+    "layer": "rp_oekokonto",
+    "dry_run": false,
+    "run_dir": "data/runs/20261029T040140Z_fa030829",
+    "started_at": "2026-10-29T04:01:40.429070+00:00",
+    "finished_at": "2026-10-29T04:01:40.557705+00:00"
+  },
+  "provenance": {
+    "discovery": {
+      "service_title": "Kompensationsverzeichnis Rheinland-Pfalz (LUWG) - SYNTHETIC FIXTURE",
+      "provider": "Landesamt für Umwelt, Wasserwirtschaft und Gewerbeaufsicht Rheinland-Pfalz (LUWG)",
+      "wfs_version": "2.0.0",
+      "fees_licence": "geldleistungsfrei; Datenlizenz Deutschland - Namensnennung - Version 2.0 (assumed for fixture)",
+      "access_constraints": "NONE",
+      "feature_type": "luwg:rp_oekokonto",
+      "feature_type_title": "Kompensationsflächen und Ökokonten",
+      "default_crs": "urn:ogc:def:crs:EPSG::25832",
+      "other_crs": [
+        "urn:ogc:def:crs:EPSG::4258",
+        "urn:ogc:def:crs:EPSG::4326",
+        "urn:ogc:def:crs:EPSG::31466",
+        "urn:ogc:def:crs:EPSG::31467"
+      ],
+      "output_format": "application/json; subtype=geojson",
+      "implements_result_paging": true,
+      "paging_is_transaction_safe": false,
+      "count_default": 10,
+      "implements_sorting": true,
+      "sort_by": "objekt_id ASC",
+      "page_size": 10,
+      "number_matched": 55,
+      "get_feature_url": "fixture://luwg/wfs/kompensation",
+      "schema_properties": {
+        "geom": "gml:MultiSurfacePropertyType",
+        "objekt_id": "string",
+        "objektart": "string",
+        "bezeichnung": "string",
+        "aktenzeichen": "string",
+        "gemeinde": "string",
+        "gemeinde_schluessel": "string",
+        "gemarkung": "string",
+        "gemarkung_schluessel": "string",
+        "flurstuecke": "string",
+        "status": "string",
+        "flaeche_ha": "string",
+        "oekopunkte_gesamt": "decimal",
+        "oekopunkte_verfuegbar": "decimal",
+        "massnahme": "string",
+        "zielzustand": "string",
+        "eintragungsstelle": "string",
+        "datum_eintragung": "string"
+      },
+      "geometry_property": "geom",
+      "mapped_fields_missing_in_schema": [],
+      "schema_fields_not_mapped": [
+        "flurstuecke",
+        "massnahme",
+        "zielzustand"
+      ],
+      "harvest_blockers": []
+    },
+    "raw_files": [
+      {
+        "file": "capabilities.xml",
+        "url": "fixture://luwg/wfs/kompensation?SERVICE=WFS&REQUEST=GetCapabilities&ACCEPTVERSIONS=2.0.0%2C1.1.0",
+        "content_type": "application/xml",
+        "bytes": 4846,
+        "sha256": "ab5d5980f401a36c81e2efe8b2e2c4875a39f51d029bb25d3f3b025d87063822",
+        "fetched_at": "2026-10-29T04:01:40.477922+00:00"
+      },
+      {
+        "file": "describe_feature_type.xsd",
+        "url": "fixture://luwg/wfs/kompensation?SERVICE=WFS&VERSION=2.0.0&REQUEST=DescribeFeatureType&TYPENAMES=luwg%3Arp_oekokonto",
+        "content_type": "application/xml",
+        "bytes": 2645,
+        "sha256": "11fd02d570c264bf677b37835ffe5ad77c2a093683ba344a8314d803bcdeb2f6",
+        "fetched_at": "2026-10-29T04:01:40.478640+00:00"
+      },
+      {
+        "file": "hits.xml",
+        "url": "fixture://luwg/wfs/kompensation?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&TYPENAMES=luwg%3Arp_oekokonto&RESULTTYPE=hits",
+        "content_type": "application/xml",
+        "bytes": 176,
+        "sha256": "5e531bc57fa1d906ae6e17d3212ca8448ee72a7f69c97b4c23997647da9a65a0",
+        "fetched_at": "2026-10-29T04:01:40.478943+00:00"
+      },
+      {
+        "file": "page_0001.json",
+        "url": "fixture://luwg/wfs/kompensation?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&TYPENAMES=luwg%3Arp_oekokonto&SRSNAME=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A25832&SORTBY=objekt_id+ASC&STARTINDEX=0&COUNT=10",
+        "content_type": "application/json; subtype=geojson",
+        "bytes": 10343,
+        "sha256": "63b4b2ec861e2dfe0a4366df7dc07e93843f0e4fdd40a72ed08980fdd55ca242",
+        "fetched_at": "2026-10-29T04:01:40.479381+00:00"
+      },
+      {
+        "file": "page_0002.json",
+        "url": "fixture://luwg/wfs/kompensation?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&TYPENAMES=luwg%3Arp_oekokonto&SRSNAME=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A25832&SORTBY=objekt_id+ASC&STARTINDEX=10&COUNT=10",
+        "content_type": "application/json; subtype=geojson",
+        "bytes": 10336,
+        "sha256": "fac42302e190737fd263fac3cf67c340618e2ec3566a9a3d23cf0079162c76b2",
+        "fetched_at": "2026-10-29T04:01:40.485056+00:00"
+      },
+      {
+        "file": "page_0003.json",
+        "url": "fixture://luwg/wfs/kompensation?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&TYPENAMES=luwg%3Arp_oekokonto&SRSNAME=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A25832&SORTBY=objekt_id+ASC&STARTINDEX=20&COUNT=10",
+        "content_type": "application/json; subtype=geojson",
+        "bytes": 10172,
+        "sha256": "c16eb8bcd145570443b48acf25e3e6ba9a6dd75184982b5af02f81b29cc62fa2",
+        "fetched_at": "2026-10-29T04:01:40.485616+00:00"
+      },
+      {
+        "file": "page_0004.json",
+        "url": "fixture://luwg/wfs/kompensation?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&TYPENAMES=luwg%3Arp_oekokonto&SRSNAME=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A25832&SORTBY=objekt_id+ASC&STARTINDEX=30&COUNT=10",
+        "content_type": "application/json; subtype=geojson",
+        "bytes": 9144,
+        "sha256": "3f85701e86f5f0587357b388ba5a52f743089b11a376b1f5a948e3f39068ff7b",
+        "fetched_at": "2026-10-29T04:01:40.486132+00:00"
+      },
+      {
+        "file": "page_0005.json",
+        "url": "fixture://luwg/wfs/kompensation?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&TYPENAMES=luwg%3Arp_oekokonto&SRSNAME=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A25832&SORTBY=objekt_id+ASC&STARTINDEX=40&COUNT=10",
+        "content_type": "application/json; subtype=geojson",
+        "bytes": 10406,
+        "sha256": "f0a17288bd14ed4884eb7c2bc5657cdedb2aa9c888ecaa7812fbe773507fcd84",
+        "fetched_at": "2026-10-29T04:01:40.486860+00:00"
+      },
+      {
+        "file": "page_0006.json",
+        "url": "fixture://luwg/wfs/kompensation?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&OUTPUTFORMAT=application%2Fjson%3B+subtype%3Dgeojson&TYPENAMES=luwg%3Arp_oekokonto&SRSNAME=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A25832&SORTBY=objekt_id+ASC&STARTINDEX=50&COUNT=10",
+        "content_type": "application/json; subtype=geojson",
+        "bytes": 5247,
+        "sha256": "3304d0f9f3644fa6ad1b185d275885e69ded322f21445f77844d23acf10e4530",
+        "fetched_at": "2026-10-29T04:01:40.487438+00:00"
+      }
+    ]
+  },
+  "counts": {
+    "fetched": 55,
+    "rejected": 12,
+    "duplicates_collapsed": 1,
+    "accepted": 42,
+    "accepted_geometry_repaired": 1,
+    "accepted_with_warnings": 13,
+    "reconciles": true
+  },
+  "database": {
+    "inserted": 42,
+    "updated": 0,
+    "unchanged": 0,
+    "not_seen_in_run": 0
+  },
+  "rejected_by_code": {
+    "conflicting_duplicate": 2,
+    "missing_site_id": 1,
+    "missing_geometry": 1,
+    "unsupported_geometry_type": 1,
+    "unrepairable_geometry": 1,
+    "degenerate_geometry": 1,
+    "geometry_unparseable": 1,
+    "outside_state": 1,
+    "geometry_outside_state": 1,
+    "out_of_domain": 1,
+    "unknown_object_type": 1
+  },
+  "warnings_by_code": {
+    "unmapped_status": 2,
+    "geometry_repaired": 1,
+    "z_dropped": 1,
+    "ambiguous_number": 1,
+    "name_encoding_repaired": 1,
+    "municipality_name_mismatch": 1,
+    "municipality_key_zero_padded": 1,
+    "area_mismatch": 1,
+    "invalid_eco_credits": 1,
+    "eco_credits_inconsistent": 1,
+    "municipality_key_unknown": 1,
+    "invalid_date": 1,
+    "duplicate_in_source": 1
+  },
+  "rejected_records": [
+    {
+      "site_id": null,
+      "feature_id": "rp_oekokonto.1036",
+      "stage": "validate",
+      "code": "missing_site_id",
+      "message": "'objekt_id' is empty"
+    },
+    {
+      "site_id": "RP-OEK-2026-0031",
+      "feature_id": "rp_oekokonto.1031",
+      "stage": "geometry",
+      "code": "missing_geometry",
+      "message": "missing_geometry"
+    },
+    {
+      "site_id": "RP-OEK-2026-0032",
+      "feature_id": "rp_oekokonto.1032",
+      "stage": "geometry",
+      "code": "unsupported_geometry_type",
+      "message": "unsupported_geometry_type"
+    },
+    {
+      "site_id": "RP-OEK-2026-0033",
+      "feature_id": "rp_oekokonto.1033",
+      "stage": "geometry",
+      "code": "unrepairable_geometry",
+      "message": "source: Self-intersection[438520 5465813]"
+    },
+    {
+      "site_id": "RP-OEK-2026-0034",
+      "feature_id": "rp_oekokonto.1034",
+      "stage": "geometry",
+      "code": "degenerate_geometry",
+      "message": "degenerate_geometry"
+    },
+    {
+      "site_id": "RP-OEK-2026-0035",
+      "feature_id": "rp_oekokonto.1035",
+      "stage": "parse",
+      "code": "geometry_unparseable",
+      "message": "ValueError: A linearring requires at least 4 coordinates."
+    },
+    {
+      "site_id": "RP-OEK-2026-0038",
+      "feature_id": "rp_oekokonto.1038",
+      "stage": "domain",
+      "code": "outside_state",
+      "message": "municipality key 08222000 is not in state RP"
+    },
+    {
+      "site_id": "RP-OEK-2026-0039",
+      "feature_id": "rp_oekokonto.1039",
+      "stage": "domain",
+      "code": "geometry_outside_state",
+      "message": "geometry outside the state boundary (CRS / axis-order error?)"
+    },
+    {
+      "site_id": "RP-OEK-2026-0040",
+      "feature_id": "rp_oekokonto.1040",
+      "stage": "domain",
+      "code": "out_of_domain",
+      "message": "'Eingriffsverfahren' is not a compensation site"
+    },
+    {
+      "site_id": "RP-OEK-2026-0041",
+      "feature_id": "rp_oekokonto.1041",
+      "stage": "domain",
+      "code": "unknown_object_type",
+      "message": "object type 'Biotopverbundfläche'"
+    },
+    {
+      "site_id": "RP-OEK-2026-0037",
+      "feature_id": "rp_oekokonto.1037",
+      "stage": "dedup",
+      "code": "conflicting_duplicate",
+      "message": "2 different versions of the same site_id; none loaded"
+    },
+    {
+      "site_id": "RP-OEK-2026-0037",
+      "feature_id": "rp_oekokonto.1037",
+      "stage": "dedup",
+      "code": "conflicting_duplicate",
+      "message": "2 different versions of the same site_id; none loaded"
+    }
+  ],
+  "warning_records": [
+    {
+      "site_id": "RP-OEK-2026-0028",
+      "code": "geometry_repaired",
+      "message": "source: Self-intersection[445216.35 5536401.91]"
+    },
+    {
+      "site_id": "RP-OEK-2026-0030",
+      "code": "z_dropped",
+      "message": "z_dropped"
+    },
+    {
+      "site_id": "RP-OEK-2026-0042",
+      "code": "unmapped_status",
+      "message": "status 'vorläufig gesichert' not in vocabulary"
+    },
+    {
+      "site_id": "RP-OEK-2026-0043",
+      "code": "unmapped_status",
+      "message": "status 'abgeschlossen' not in vocabulary"
+    },
+    {
+      "site_id": "RP-OEK-2026-0044",
+      "code": "ambiguous_number",
+      "message": "area '12.500'"
+    },
+    {
+      "site_id": "RP-OEK-2026-0045",
+      "code": "name_encoding_repaired",
+      "message": "municipality name re-decoded to 'Neustadt an der Weinstraße'"
+    },
+    {
+      "site_id": "RP-OEK-2026-0046",
+      "code": "municipality_name_mismatch",
+      "message": "source 'Mainz' vs official 'Koblenz' for 07111000"
+    },
+    {
+      "site_id": "RP-OEK-2026-0047",
+      "code": "municipality_key_zero_padded",
+      "message": "municipality key 7211000"
+    },
+    {
+      "site_id": "RP-OEK-2026-0048",
+      "code": "area_mismatch",
+      "message": "declared 53,733 m2 vs geometry 17,911 m2"
+    },
+    {
+      "site_id": "RP-OEK-2026-0049",
+      "code": "invalid_eco_credits",
+      "message": "eco_credits_available is negative (-500.0)"
+    },
+    {
+      "site_id": "RP-OEK-2026-0050",
+      "code": "eco_credits_inconsistent",
+      "message": "available credits exceed total credits"
+    },
+    {
+      "site_id": "RP-OEK-2026-0051",
+      "code": "municipality_key_unknown",
+      "message": "07999999 not in BKG VG250 reference"
+    },
+    {
+      "site_id": "RP-OEK-2026-0052",
+      "code": "invalid_date",
+      "message": "registered_on '2021/13/45'"
+    },
+    {
+      "site_id": "RP-OEK-2026-0009",
+      "code": "duplicate_in_source",
+      "message": "2 identical copies delivered (non transaction-safe paging?); loaded once"
+    }
+  ],
+  "attribute_completeness_pct": {
+    "object_type": 100.0,
+    "site_name": 100.0,
+    "file_reference": 100.0,
+    "municipality_key": 97.6,
+    "municipality_name": 100.0,
+    "district_name": 95.2,
+    "cadastral_district_key": 97.6,
+    "cadastral_district_name": 97.6,
+    "compensation_status": 95.2,
+    "area_source_m2": 95.2,
+    "eco_credits_total": 66.7,
+    "eco_credits_available": 64.3,
+    "registering_authority": 100.0,
+    "registered_on": 97.6
+  }
+}
